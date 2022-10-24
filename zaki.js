@@ -1701,8 +1701,8 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Group Bot',
-                                    url: 'https://chat.whatsapp.com/FZlu1bLAaoZDaIpPGq7GyS'
+                                    displayText: 'sc',
+                                    url: 'https://github.com/ai-man-123/wemd'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1725,8 +1725,8 @@ break
 		    await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Group Bot',
-                                    url: 'https://chat.whatsapp.com/FZlu1bLAaoZDaIpPGq7GyS'
+                                    displayText: 'sc',
+                                    url: 'https://github.com/ai-man-123/wemd'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3256,8 +3256,8 @@ case '?': case 'menu': case 'help':
 txt = ` Hai Kak ${pushname} 👋
 
 Saya ${botname} Yang Di Buat Oleh ${ownername}
-Untuk Menjadi Asisten Anda, Ada Yang Bisa Saya Bantu ?`
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: txt.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./media/menu.jpg') }, hydratedFooterText: `Note : Jika Ada Masalah Atau Bug Pada Bot Segera Lapor Owner Untuk Dilakukan Perbaikan, Jadilah User Yang Smart.`, hydratedButtons: [{ urlButton: { displayText: 'YouTube', url: 'https://m.youtube.com/channel/UCHdipvk52k43KsPRenGpD0w'} }, { callButton: { displayText: 'Owner Number', PhoneNumber: '+6285878313791' } }, { quickReplyButton: { displayText: 'Command', id: '.allmenu', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
+Lynx?`
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: txt.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./media/menu.jpg') }, hydratedFooterText: `Note : Jika Ada Masalah Atau Bug Pada Bot Segera Lapor Owner lynx Untuk Dilakukan Perbaikan, Jadilah User Yang Smart.`, hydratedButtons: [{ urlButton: { displayText: 'Github owner sc', url: 'https://github.com/ai-man-123/wemd'} }, { callButton: { displayText: 'Owner Number', PhoneNumber: '+60 10-281 0046' } }, { quickReplyButton: { displayText: 'Command', id: '.allmenu', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
   zaki.relayMessage( m.chat, template.message, { messageId: template.key.id } )
 break
 case 'command': case 'allmenu': case 'listmenu': {
@@ -3380,31 +3380,10 @@ _*🇯🇵 : このボットの機能のリスト*_.
   » ${prefix}anime
   » ${prefix}waifu
   » ${prefix}husbu
-  » ${prefix}neko
-  » ${prefix}shinobu
-  » ${prefix}waifus (nsfw)
-  » ${prefix}nekos (nsfw)
-  » ${prefix}trap (nsfw)
-  » ${prefix}blowjob (nsfw)
 
   「 *Random Anime Menu* 」
   » ${prefix}loli
-  » ${prefix}neko
   » ${prefix}waifu
-  » ${prefix}shinobu
-  » ${prefix}megumin
-  » ${prefix}bully
-  » ${prefix}cuddle
-  » ${prefix}cry
-  » ${prefix}hug
-  » ${prefix}awoo
-  » ${prefix}kiss
-  » ${prefix}lick
-  » ${prefix}pat
-  » ${prefix}smug
-  » ${prefix}bonk
-  » ${prefix}yeet
-  » ${prefix}blush
   » ${prefix}smile
   » ${prefix}wave
   » ${prefix}highfive
@@ -3514,8 +3493,6 @@ _*🇯🇵 : このボットの機能のリスト*_.
   » ${prefix}artimimpi
   » ${prefix}artinama
   » ${prefix}ramaljodoh
-  » ${prefix}ramaljodohbali
-  » ${prefix}suamiistri
   » ${prefix}ramalcinta
   » ${prefix}cocoknama
   » ${prefix}pasangan
@@ -3626,7 +3603,31 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
+                                    displayeMedia({ image: fs.readFileSync('./media/menu.jpg') }, { upload: zaki.waUploadToServer })
+                const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            imageMessage: message.imageMessage,
+                            hydratedContentText: anu,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Instagram',
+                                    url: 'https://instagram.com/iamkizakixd'
+                                }
+                            }, {
+                                callButton: {
+                                    displayText: 'Owner Number',
+                                    phoneNumber: '+62 882-9202-4190'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Speed',
+                                    id: 'ping'
+                                }
+                            }, {
+                                quickReplyButton: {
                                     displayText: 'Script',
+                                    Text: 'Script',
                                     id: 'sc'
                                 }  
                             }, {
@@ -3656,7 +3657,7 @@ case 'owner': case 'creator': {
     + 'item4.ADR:;;malaysia;;;;\n' //Negara Kalian
     + 'item4.X-ABLabel:Region\n'
     + 'END:VCARD'
-zaki.sendMessage(m.chat, { contacts: { displayName: '𝙸 𝙰𝚖 𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳', contacts: [{ vcard }] } }, { quoted: m })
+zaki.sendMessage(m.chat, { contacts: { displayName: 'LynxAiman', contacts: [{ vcard }] } }, { quoted: m })
             }
 break 
 
