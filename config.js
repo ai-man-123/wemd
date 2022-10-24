@@ -12,22 +12,22 @@ global.APIKeys = {
 }
 
 // Ganti Sewajarnya
-global.owner = ['6285878313791']
-global.pengguna = '𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳'
-global.premium = ['6285878313791']
-global.pemilik = ['6285878313791'] 
-global.ownernomer = '6285878313791'
-global.ownername = '𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳'
-global.botname = 'Ｃｈｉｔａｎｄａ - ＭＤ'
+global.owner = ['60102810046']
+global.pengguna = 'lynx'
+global.premium = ['60102810046']
+global.pemilik = ['6102810046'] 
+global.ownernomer = '60102810046'
+global.ownername = 'lynx.man'
+global.botname = 'lynxbot - ＭＤ'
 global.Prefix = 'Multi'
-global.meki = '6285878313791'
-global.footer = '𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳 | © 2022'
-global.ig = 'https://instagram.com/KiZakiXD'
-global.email = 'helloiamkizakixd@gmail.com'
+global.meki = '60102810046'
+global.footer = 'Lynx | © 2022'
+global.ig = 'https://instagram.com/aiman1_23'
+global.email = 'aimanmk1234@gmail.com'
 global.region = 'Indonesia'
-global.sc = 'https://m.youtube.com/channel/UCHdipvk52k43KsPRenGpD0w'
-global.packname = '✨ 𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳 ✨' 
-global.author = 'Ｃｈｉｔａｎｄａ - ＭＤ' 
+global.sc = 'https://github.com/ai-man-123/wemd'
+global.packname = '✨ lynx.aiman✨' 
+global.author = 'lynx.man - ＭＤ' 
 global.sessionName = 'kizakixd'
 global.prefa = ['#','!','/','']
 global.sp = '» ' 
