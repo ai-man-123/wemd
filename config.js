@@ -8,7 +8,7 @@ global.APIs = {
 
 // Tempat Apikey
 global.APIKeys = {
-	'https://zenzapis.xyz': 'YOUR_APIKEY', // Register Untuk Dapatkan Apikey
+	'https://zenzapis.xyz': '09e9ab708f', // Register Untuk Dapatkan Apikey
 }
 
 // Ganti Sewajarnya
@@ -26,11 +26,11 @@ global.ig = 'https://instagram.com/aiman1_23'
 global.email = 'aimanmk1234@gmail.com'
 global.region = 'Indonesia'
 global.sc = 'https://github.com/ai-man-123/wemd'
-global.packname = '✨ lynx.aiman✨' 
-global.author = 'lynx.man - ＭＤ' 
+global.packname = '✨ Bot Whatsapp ✨' 
+global.author = 'lynx.aiman - ＭＤ' 
 global.sessionName = 'kizakixd'
 global.prefa = ['#','!','/','']
-global.sp = '» ' 
+global.sp = 'メ' 
 global.mess = {
     success: 'Done Your Request',
     admin: 'Fitur Khusus Admin Group!',
