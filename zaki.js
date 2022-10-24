@@ -3598,7 +3598,7 @@ _*🇯🇵 : このボットの機能のリスト*_.
 // MODEL MENU SEKARANG : LOC \\
 
 //━━━━━━━━━━━━━━━[ MENU LOC ]━━━━━━━━━━━━━━━\\
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: anu.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./media/menu.jpg') }, hydratedFooterText: `Jangan Spam Bot Jika Tidak Ingin Di Banned!`, hydratedButtons: [{ urlButton: { displayText: 'YouTube', url: 'https://m.youtube.com/channel/UCHdipvk52k43KsPRenGpD0w'} }, { urlButton: { displayText: 'Group', url: 'https://chat.whatsapp.com/FZlu1bLAaoZDaIpPGq7GyS'} }, { quickReplyButton: { displayText: 'Owner', id: 'owner', } }, { quickReplyButton: { displayText: 'Donate', id: 'donate', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: anu.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./media/menu.jpg') }, hydratedFooterText: `Lynx.man !`, hydratedButtons: [{ urlButton: { displayText: '<github>', url: 'https://github.com/ai-man-123'} }, { urlButton: { displayText: '<Website owner>', url: 'http://surl.li/dijcc'} }, { quickReplyButton: { displayText: 'Owner', id: 'owner', } }, { quickReplyButton: { displayText: '<kata2 anime>', id: 'quotesanime', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
   zaki.relayMessage( m.chat, template.message, { messageId: template.key.id } )
 
   
