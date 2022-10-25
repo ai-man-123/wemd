@@ -3575,12 +3575,12 @@ _*🇯🇵 : このボットの機能のリスト*_.
 // MODEL MENU SEKARANG : LOC \\
 
 //━━━━━━━━━━━━━━━[ MENU LOC ]━━━━━━━━━━━━━━━\\
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: anu.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./media/menu.jpg') }, hydratedFooterText: `Lynx.man !`, hydratedButtons: [{ urlButton: { displayText: '<github>', url: 'https://github.com/ai-man-123'} }, { urlButton: { displayText: '<Website owner>', url: 'http://surl.li/dijcc'} }, { quickReplyButton: { displayText: 'Owner', id: 'owner', } }, { quickReplyButton: { displayText: '<kata2 anime>', id: 'quotesanime', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
-  zaki.relayMessage( m.chat, template.message, { messageId: template.key.id } )
+/*const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: anu.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./media/menu.jpg') }, hydratedFooterText: `Lynx.man !`, hydratedButtons: [{ urlButton: { displayText: '<github>', url: 'https://github.com/ai-man-123'} }, { urlButton: { displayText: '<Website owner>', url: 'http://surl.li/dijcc'} }, { quickReplyButton: { displayText: 'Owner', id: 'owner', } }, { quickReplyButton: { displayText: '<kata2 anime>', id: 'quotesanime', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
+  zaki.relayMessage( m.chat, template.message, { messageId: template.key.id } )*/
 
   
 //━━━━━━━━━━━━━━━[ MENU IMG ]━━━━━━━━━━━━━━━\\
-/*let message = await prepareWAMessageMedia({ image: fs.readFileSync('./media/menu.jpg') }, { upload: zaki.waUploadToServer })
+let message = await prepareWAMessageMedia({ image: fs.readFileSync('./media/menu.jpg') }, { upload: zaki.waUploadToServer })
                 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -3588,17 +3588,17 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram',
-                                    url: 'https://instagram.com/iamkizakixd'
+                                    displayText: 'Instagramメ',
+                                    url: 'https://instagram.com/aiman1_23'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Owner Number',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    displayText: 'Owner Numberメ',
+                                    phoneNumber: '+60 10-281 0046'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Speed',
+                                    displayText: 'Speedメ',
                                     id: 'ping'
                                 }
                             }, {
@@ -3611,35 +3611,35 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram',
-                                    url: 'https://instagram.com/iamkizakixd'
+                                    displayText: 'Instagramメ',
+                                    url: 'https://instagram.com/aiman1_23'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Owner Number',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    displayText: 'Owner Numberメ',
+                                    phoneNumber: '+60 10-281 0046'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Speed',
+                                    displayText: 'Speedメ',
                                     id: 'ping'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Script',
+                                    displayText: 'Scriptメ',
                                     Text: 'Script',
                                     id: 'sc'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner',
+                                    displayText: 'Ownerメ',
                                     id: 'owner'
                                 }
                             }]
                         }
                     }
                 }), { userJid: m.chat, quoted: m })
-                zaki.relayMessage(m.chat, template.message, { messageId: template.key.id })*/
+                zaki.relayMessage(m.chat, template.message, { messageId: template.key.id })
 }                
 break
 case 'owner': case 'creator': {
