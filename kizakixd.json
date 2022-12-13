@@ -1,435 +1,1639 @@
 {
-  "creds": {
-    "noiseKey": {
-      "private": {
-        "type": "Buffer",
-        "data": "eGMjtCtecGAckTCC511Us5U+N0GWq5uMEskNGqvqB2k="
-      },
-      "public": {
-        "type": "Buffer",
-        "data": "lBQsT9FaqV8tjBzx/5LnjhW/4TnDHSjDJFViINX16mM="
-      }
+  "chats": {
+    "60147675746@s.whatsapp.net": {
+      "id": "60147675746@s.whatsapp.net",
+      "conversationTimestamp": 1670904945,
+      "unreadCount": 1,
+      "name": "Aiman",
+      "archive": false,
+      "pin": 1670904953404
     },
-    "signedIdentityKey": {
-      "private": {
-        "type": "Buffer",
-        "data": "uK9mfcRdNJIWBaZFkerK7OFd4kzQA2+YQK+mb6lRq3U="
+    "60102810046@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "60102810046@s.whatsapp.net",
+              "fromMe": false,
+              "id": "A80726401F040C0549280520853F847E"
+            },
+            "message": {
+              "extendedTextMessage": {
+                "text": "Helo",
+                "previewType": "NONE",
+                "contextInfo": {
+                  "forwardingScore": 256,
+                  "isForwarded": true
+                },
+                "inviteLinkGroupTypeV2": "DEFAULT"
+              }
+            },
+            "messageTimestamp": "1670903815",
+            "ephemeralOutOfSync": false
+          }
+        }
+      ],
+      "participant": [],
+      "id": "60102810046@s.whatsapp.net",
+      "unreadCount": 5,
+      "readOnly": false,
+      "ephemeralExpiration": 0,
+      "conversationTimestamp": 1670904898,
+      "notSpam": false,
+      "disappearingMode": {
+        "initiator": "CHANGED_IN_CHAT"
       },
-      "public": {
+      "unreadMentionCount": 0,
+      "tcToken": {
         "type": "Buffer",
-        "data": "EJnnRzC2ng35VfLcxGxbiCeVlEbMwxLBmktJI7kNowY="
-      }
-    },
-    "signedPreKey": {
-      "keyPair": {
-        "private": {
-          "type": "Buffer",
-          "data": "4OgzEJxH2uvFoVtp4vRcfwYG/oJftKrh+BbVJSlGumQ="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "2G7g8aLiEvjEFSidmFyYuEi1tzBFRSCBe0zGy29x200="
+        "data": [
+          1,
+          1,
+          214,
+          180,
+          183,
+          76,
+          63,
+          198,
+          75,
+          150,
+          51,
+          149,
+          1,
+          119,
+          205,
+          167,
+          188,
+          227,
+          218,
+          112,
+          171,
+          3,
+          147,
+          113,
+          61,
+          95,
+          209,
+          193,
+          224,
+          240,
+          106,
+          18,
+          41,
+          220,
+          66
+        ]
+      },
+      "tcTokenTimestamp": {
+        "low": 1670903814,
+        "high": 0,
+        "unsigned": true
+      },
+      "contactPrimaryIdentityKey": {
+        "type": "Buffer",
+        "data": [
+          134,
+          115,
+          185,
+          166,
+          96,
+          178,
+          82,
+          131,
+          6,
+          99,
+          97,
+          191,
+          97,
+          68,
+          18,
+          52,
+          106,
+          124,
+          86,
+          209,
+          20,
+          213,
+          139,
+          91,
+          139,
+          71,
+          233,
+          24,
+          138,
+          102,
+          64,
+          81
+        ]
+      },
+      "notify": "ꋬ꒐ꂵꋬꋊ メ",
+      "isContact": true,
+      "presences": {
+        "60102810046@s.whatsapp.net": {
+          "lastKnownPresence": "composing"
         }
       },
-      "signature": {
-        "type": "Buffer",
-        "data": "1mIrEXPjLXu1GWrC7robHMQJzODl+6xccc7M/r/MeUOixWnF3y/8A4gzGQfi85szrhCAPU/J+18oW4Ohgq/6DA=="
-      },
-      "keyId": 1
+      "archive": false,
+      "pin": 1670904953353,
+      "mute": -1
     },
-    "registrationId": 163,
-    "advSecretKey": "6slAiCTB4DBugTzCOMOwYDzQgamCOsf6J0o3IlxUVmY=",
-    "processedHistoryMessages": [],
-    "nextPreKeyId": 31,
-    "firstUnuploadedPreKeyId": 31,
-    "accountSettings": {
-      "unarchiveChats": false
-    },
-    "account": {
-      "details": "CObx4pEGEIfFz5oGGAE=",
-      "accountSignatureKey": "ZlAmbJSQ4pBjLKNWKXgBGV4dfiVPNWBaij+TQo9hvwA=",
-      "accountSignature": "tE9JWNW4A9VI32yGGRe9HNjP4MTJCIr3i6D94YQV7ojnn3kPE6Wpk6h6Q92G5YwM59fTYTIbYSU0vsS9MkJpDw==",
-      "deviceSignature": "98IwEFW9URAlAgl+u7+PGEeLnCGjadX10gj6EjfjY7Eu0i+SBAfyB2zWBVZwsXpelum8RNcgJAj/gJxOYy2gAg=="
-    },
-    "me": {
-      "id": "601120787061:1@s.whatsapp.net",
-      "name": "Y",
-      "jid": "601120787061@s.whatsapp.net"
-    },
-    "signalIdentities": [
-      {
-        "identifier": {
-          "name": "601120787061:1@s.whatsapp.net",
-          "deviceId": 0
-        },
-        "identifierKey": {
-          "type": "Buffer",
-          "data": "BWZQJmyUkOKQYyyjVil4ARleHX4lTzVgWoo/k0KPYb8A"
+    "60189830350@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "60189830350@s.whatsapp.net",
+              "fromMe": false,
+              "id": "64D8E88DAD102FE1DBCB81A89561B6CC"
+            },
+            "message": {
+              "stickerMessage": {
+                "url": "https://mmg.whatsapp.net/d/f/Athl5sj0cOxBDODOxGjSaR2e5ZcUxflQn7aw-Y4dQ8kq.enc",
+                "fileSha256": "H3DXhQaoTx93E8QUOMXpcuha1VEn7I/5FqBOXbtcl9s=",
+                "fileEncSha256": "PMwyzD1N4oYYVp2MF4APCvCY0kgFeE5seypA+buCFuA=",
+                "mediaKey": "nf4Jx5sCuTmHZipDYNSoxXFYnergi2RwI3IvI6Wn/Ys=",
+                "mimetype": "image/webp",
+                "height": 64,
+                "width": 64,
+                "directPath": "/v/t62.15575-24/69657597_512857680811208_8327232416009717031_n.enc?ccb=11-4&oh=01_AdTGi3E9gnPs-BcUtoGyWcxyE8bALrJWkJW_uLZSjvI4PQ&oe=63BF722C",
+                "fileLength": "192646",
+                "mediaKeyTimestamp": "1670889277",
+                "firstFrameLength": 2400,
+                "firstFrameSidecar": "fwdVtK6YRQMCWg==",
+                "isAnimated": true
+              }
+            },
+            "messageTimestamp": "1670902563",
+            "status": "READ",
+            "ephemeralOutOfSync": false,
+            "mediaData": {
+              "localPath": "Media/WhatsApp Stickers/STK-20221213-WA0011.webp"
+            }
+          }
         }
+      ],
+      "participant": [],
+      "id": "60189830350@s.whatsapp.net",
+      "unreadCount": 1,
+      "readOnly": false,
+      "ephemeralExpiration": 0,
+      "conversationTimestamp": {
+        "low": 1670902563,
+        "high": 0,
+        "unsigned": true
+      },
+      "notSpam": true,
+      "disappearingMode": {
+        "initiator": "CHANGED_IN_CHAT"
+      },
+      "unreadMentionCount": 0,
+      "tcToken": {
+        "type": "Buffer",
+        "data": [
+          1,
+          1,
+          214,
+          177,
+          187,
+          99,
+          35,
+          55,
+          39,
+          193,
+          165,
+          10,
+          23,
+          127,
+          246,
+          141,
+          179,
+          29,
+          238,
+          115,
+          62,
+          222,
+          159,
+          225,
+          131,
+          178,
+          71,
+          125,
+          114,
+          142,
+          60,
+          111,
+          205,
+          160,
+          252
+        ]
+      },
+      "tcTokenTimestamp": {
+        "low": 1670902260,
+        "high": 0,
+        "unsigned": true
+      },
+      "contactPrimaryIdentityKey": {
+        "type": "Buffer",
+        "data": [
+          192,
+          168,
+          173,
+          2,
+          178,
+          155,
+          128,
+          118,
+          86,
+          16,
+          187,
+          186,
+          163,
+          40,
+          183,
+          142,
+          193,
+          93,
+          197,
+          159,
+          91,
+          128,
+          245,
+          117,
+          118,
+          144,
+          2,
+          68,
+          38,
+          72,
+          107,
+          56
+        ]
+      },
+      "tcTokenSenderTimestamp": {
+        "low": 1670902272,
+        "high": 0,
+        "unsigned": true
       }
-    ],
-    "platform": "android",
-    "lastAccountSyncTimestamp": 1666441867,
-    "myAppStateKeyId": "AAAAAG9W"
+    },
+    "60199782326@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "60199782326@s.whatsapp.net",
+              "fromMe": true,
+              "id": "AE4460C14A6DD13DD05C2B20AB135A3E"
+            },
+            "messageTimestamp": "1670902188",
+            "messageStubType": "E2E_ENCRYPTED"
+          },
+          "msgOrderId": "18"
+        }
+      ],
+      "participant": [],
+      "id": "60199782326@s.whatsapp.net"
+    },
+    "status@broadcast": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "status@broadcast",
+              "fromMe": false,
+              "id": "1073268550030006451023450448597"
+            },
+            "message": {
+              "videoMessage": {
+                "mimetype": "video/mp4",
+                "fileSha256": "jp6WfCWVuyKo73lpkWCooWXUZTqFdKZ5cjk0RrYFbsI=",
+                "fileLength": "2685016",
+                "mediaKey": "ucYnyGQEkBrs413LZT5JQLdpYJILh1hfCn1VG1gIBNk=",
+                "height": 1920,
+                "width": 1080,
+                "fileEncSha256": "Ngq8Uv+vKnVBDY2HJXRuseWbiRbHLlu+Xl7mMzZABgg=",
+                "staticUrl": "https://static.whatsapp.net/downloadable?category=PSA&id=56109472605510362&num=5bcd1562-7f7a-453a-82dc-ab4f75f9d120"
+              }
+            },
+            "messageTimestamp": "0",
+            "participant": "0@s.whatsapp.net",
+            "ephemeralOutOfSync": false,
+            "mediaData": {
+              "localPath": "Media/.Statuses/19756c470ad4452f922d80c21b5da15d.mp4"
+            }
+          }
+        }
+      ],
+      "participant": [],
+      "id": "status@broadcast"
+    },
+    "628990981092@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "628990981092@s.whatsapp.net",
+              "fromMe": true,
+              "id": "BC089B526739F5D734EE06790F988082"
+            },
+            "messageTimestamp": "1670902187",
+            "messageStubType": "E2E_ENCRYPTED"
+          },
+          "msgOrderId": "13"
+        }
+      ],
+      "participant": [],
+      "id": "628990981092@s.whatsapp.net"
+    },
+    "60138671074@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "60138671074@s.whatsapp.net",
+              "fromMe": true,
+              "id": "DF56B1AE59ECDEC3D5354EF7A66E91D0"
+            },
+            "messageTimestamp": "1670902185",
+            "messageStubType": "E2E_ENCRYPTED"
+          },
+          "msgOrderId": "12"
+        }
+      ],
+      "participant": [],
+      "id": "60138671074@s.whatsapp.net"
+    },
+    "601169934292@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "601169934292@s.whatsapp.net",
+              "fromMe": true,
+              "id": "AD7C5020A62CCA698AE1177DB3B826AE"
+            },
+            "messageTimestamp": "1670902185",
+            "messageStubType": "E2E_ENCRYPTED"
+          },
+          "msgOrderId": "11"
+        }
+      ],
+      "participant": [],
+      "id": "601169934292@s.whatsapp.net"
+    },
+    "62882003806038@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "62882003806038@s.whatsapp.net",
+              "fromMe": true,
+              "id": "92BB18A7DA2BADE4B5EB47D2D6D3BCAC"
+            },
+            "messageTimestamp": "1670902184",
+            "messageStubType": "E2E_ENCRYPTED"
+          },
+          "msgOrderId": "10"
+        }
+      ],
+      "participant": [],
+      "id": "62882003806038@s.whatsapp.net"
+    },
+    "60136245436@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "60136245436@s.whatsapp.net",
+              "fromMe": true,
+              "id": "E14C73C4A79B907F7D1346C71A262323"
+            },
+            "messageTimestamp": "1670902184",
+            "messageStubType": "E2E_ENCRYPTED"
+          },
+          "msgOrderId": "9"
+        }
+      ],
+      "participant": [],
+      "id": "60136245436@s.whatsapp.net"
+    },
+    "62895613293360@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "62895613293360@s.whatsapp.net",
+              "fromMe": true,
+              "id": "19F5887C0CA88D01F66589B2A3C9273A"
+            },
+            "messageTimestamp": "1670902184",
+            "messageStubType": "E2E_ENCRYPTED"
+          },
+          "msgOrderId": "8"
+        }
+      ],
+      "participant": [],
+      "id": "62895613293360@s.whatsapp.net"
+    },
+    "60133022676@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "60133022676@s.whatsapp.net",
+              "fromMe": true,
+              "id": "2B63F9B7CA4AE00FDC19C0122DA3EB07"
+            },
+            "messageTimestamp": "1670902183",
+            "messageStubType": "E2E_ENCRYPTED"
+          },
+          "msgOrderId": "7"
+        }
+      ],
+      "participant": [],
+      "id": "60133022676@s.whatsapp.net"
+    },
+    "601155263405@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "601155263405@s.whatsapp.net",
+              "fromMe": true,
+              "id": "916503553C4D905AC960523135CD59F5"
+            },
+            "messageTimestamp": "1670902183",
+            "messageStubType": "E2E_ENCRYPTED"
+          },
+          "msgOrderId": "6"
+        }
+      ],
+      "participant": [],
+      "id": "601155263405@s.whatsapp.net"
+    },
+    "6285364937006@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "6285364937006@s.whatsapp.net",
+              "fromMe": true,
+              "id": "55D085F769A39104CDA8C598AAE5E078"
+            },
+            "messageTimestamp": "1670902183",
+            "messageStubType": "E2E_ENCRYPTED"
+          },
+          "msgOrderId": "5"
+        }
+      ],
+      "participant": [],
+      "id": "6285364937006@s.whatsapp.net"
+    },
+    "60136241729@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "60136241729@s.whatsapp.net",
+              "fromMe": true,
+              "id": "8B5A825D70B9053E800FA4314CF87DF4"
+            },
+            "messageTimestamp": "1670902183",
+            "messageStubType": "E2E_ENCRYPTED"
+          },
+          "msgOrderId": "4"
+        }
+      ],
+      "participant": [],
+      "id": "60136241729@s.whatsapp.net"
+    },
+    "60196060207@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "60196060207@s.whatsapp.net",
+              "fromMe": true,
+              "id": "879F3F52A64D165264CCEAB895D44DAF"
+            },
+            "messageTimestamp": "1670902182",
+            "messageStubType": "E2E_ENCRYPTED"
+          },
+          "msgOrderId": "3"
+        }
+      ],
+      "participant": [],
+      "id": "60196060207@s.whatsapp.net"
+    },
+    "601163188399@s.whatsapp.net": {
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJid": "601163188399@s.whatsapp.net",
+              "fromMe": true,
+              "id": "878251C045145B36CE723675C4684931"
+            },
+            "messageTimestamp": "1670902182",
+            "messageStubType": "E2E_ENCRYPTED"
+          },
+          "msgOrderId": "2"
+        }
+      ],
+      "participant": [],
+      "id": "601163188399@s.whatsapp.net"
+    }
   },
-  "keys": {
-    "preKeys": {
-      "1": {
-        "private": {
-          "type": "Buffer",
-          "data": "INh+hONAOrjjX04tGFxPtbJh6mln/eYtdPfuaBAY/3A="
+  "messages": {
+    "60147675746@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "60147675746@s.whatsapp.net",
+          "fromMe": true,
+          "id": "51C0F9D802295F6DA6FD8766ACE7F083"
         },
-        "public": {
-          "type": "Buffer",
-          "data": "XOWfgT6dxGee+iFM9vR70BUMVW+AnIxa0kjnJh9FJmo="
-        }
+        "message": {
+          "protocolMessage": {
+            "type": "INITIAL_SECURITY_NOTIFICATION_SETTING_SYNC",
+            "initialSecurityNotificationSettingSync": {
+              "securityNotificationEnabled": false
+            }
+          }
+        },
+        "messageTimestamp": "1670904793",
+        "status": "SERVER_ACK",
+        "pushName": "Aiman"
       },
-      "2": {
-        "private": {
-          "type": "Buffer",
-          "data": "kG1r0BSPnuo3XJZaqITF5IEemuhcjAXzj8SH6b+4Ilg="
+      {
+        "key": {
+          "remoteJid": "60147675746@s.whatsapp.net",
+          "fromMe": true,
+          "id": "D2A7BBCA4B3219748AE7AE885AF072D3"
         },
-        "public": {
-          "type": "Buffer",
-          "data": "cS037+87ojojkPH2ZBds777Jg0+uk7ZfVlsOYV6/oSI="
-        }
+        "message": {
+          "protocolMessage": {
+            "type": "APP_STATE_SYNC_KEY_SHARE",
+            "appStateSyncKeyShare": {
+              "keys": [
+                {
+                  "keyId": {
+                    "keyId": "AAAAAB12"
+                  },
+                  "keyData": {
+                    "keyData": "IJ3YeleVpkEWHV9HFjThL7LJ1kQsWP5zcSMICOtwn8I=",
+                    "fingerprint": {
+                      "rawId": 232400232,
+                      "currentIndex": 1,
+                      "deviceIndexes": [
+                        0,
+                        1
+                      ]
+                    },
+                    "timestamp": "1670904793003"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "messageTimestamp": "1670904793",
+        "status": "SERVER_ACK",
+        "pushName": "Aiman"
       },
-      "3": {
-        "private": {
-          "type": "Buffer",
-          "data": "aNzUS1TtlpOP7byjFQwrX2QXoUEvP97bbebouVyDDmo="
+      {
+        "key": {
+          "remoteJid": "60147675746@s.whatsapp.net",
+          "fromMe": true,
+          "id": "1739CC8005B960F9449C97D90693C051"
         },
-        "public": {
-          "type": "Buffer",
-          "data": "eY/MmB936ep/U5eXTsd86/DRRLTo4mA0tR+vHXfm+Cw="
-        }
+        "message": {
+          "protocolMessage": {
+            "type": "HISTORY_SYNC_NOTIFICATION",
+            "historySyncNotification": {
+              "fileSha256": "orogVOQwKkWGhfEOSb4/QKHJ/jiLEVr1MGULeY7DV2I=",
+              "fileLength": "1298",
+              "mediaKey": "fb9Tx6daqPDEEqp8YX/vxrEoh/XXMAYdk1TPqh/ZXmE=",
+              "fileEncSha256": "D/0CEstW7MC9tQZikNwXfib3VOYboPYO7AQAtrRenq8=",
+              "directPath": "/v/t62.31111-24/28703447_510149971078897_826810063343571426_n.enc?ccb=11-4&oh=01_AdQNf_1xWMipq2Tda9zic4_kVUEODUbpkXZHM5ZwGjSI5Q&oe=63BF77C9",
+              "syncType": "INITIAL_BOOTSTRAP"
+            }
+          }
+        },
+        "messageTimestamp": "1670904793",
+        "status": "SERVER_ACK",
+        "pushName": "Aiman"
       },
-      "4": {
-        "private": {
-          "type": "Buffer",
-          "data": "OKJCQP/SEhb/YbqWkTOgfXRsrHk34ujqYO+B7HhR8kM="
+      {
+        "key": {
+          "remoteJid": "60147675746@s.whatsapp.net",
+          "fromMe": true,
+          "id": "C5B1F3EB1494EADA42580FEBD0CC23DB"
         },
-        "public": {
-          "type": "Buffer",
-          "data": "gcrNmyBy4Y7u1fY3Mc06M5EKbzn1af8vAfymFbPexG8="
-        }
+        "message": {
+          "protocolMessage": {
+            "type": "HISTORY_SYNC_NOTIFICATION",
+            "historySyncNotification": {
+              "fileSha256": "+nvWbg69ULs1w49pXxt0wfTGB7AjlGwg7bGwvoQjcYs=",
+              "fileLength": "62",
+              "mediaKey": "xkHjSW1REqgYZUTDxleSjmAmvOLHEjTP57bIPHIR1Kw=",
+              "fileEncSha256": "nPqKpxG6Dspk0GoiCv5QSQCpKGu3wz7UILgEMg+OQZ8=",
+              "directPath": "/v/t62.31111-24/19389933_550826763237720_3224879537001992769_n.enc?ccb=11-4&oh=01_AdS1EGwPUJCv5vEMeoAeaScGnuB9AO3NBaXp3Dwnzz_4WA&oe=63BF73A4",
+              "syncType": "PUSH_NAME",
+              "chunkOrder": 1
+            }
+          }
+        },
+        "messageTimestamp": "1670904794",
+        "status": "SERVER_ACK",
+        "pushName": "Aiman"
       },
-      "5": {
-        "private": {
-          "type": "Buffer",
-          "data": "WEUUSS/ZDtVe9H0fqXRyX7rZxswO/XZqc1B7XdVan2A="
+      {
+        "key": {
+          "remoteJid": "60147675746@s.whatsapp.net",
+          "fromMe": true,
+          "id": "B530DF5A26E0737443AD66A64CA1C164"
         },
-        "public": {
-          "type": "Buffer",
-          "data": "ZhUKZ6wyq1wZGeaNl34f7ZaRZd1EZphYbWLwFFTV+mQ="
-        }
+        "message": {
+          "protocolMessage": {
+            "type": "HISTORY_SYNC_NOTIFICATION",
+            "historySyncNotification": {
+              "fileSha256": "taj5oI7DfVM51fM+EISkYp4rYeGOiKLsGyUQVqoc1mQ=",
+              "fileLength": "981",
+              "mediaKey": "aslxJyCPP6ZOl+iCOpTVTA+CPBx3S2o6y6bU/3fMdyQ=",
+              "fileEncSha256": "4XhJGlLGad7FNPIYAE0tsrgkurBdqzatiSndzP0mee4=",
+              "directPath": "/v/t62.31111-24/40945424_557125615784318_5245473784152300106_n.enc?ccb=11-4&oh=01_AdQhP9Ijyzr-CMNTiIs2B7yecUJ0IwCyMr6pSpr7jVYp4A&oe=63BF6461",
+              "syncType": "INITIAL_STATUS_V3"
+            }
+          }
+        },
+        "messageTimestamp": "1670904794",
+        "status": "SERVER_ACK",
+        "pushName": "Aiman"
       },
-      "6": {
-        "private": {
-          "type": "Buffer",
-          "data": "EGJEAB02VWUiVHJ51E/2dq3Pmmc7kHhfXlRdM7zT/2M="
+      {
+        "key": {
+          "remoteJid": "60147675746@s.whatsapp.net",
+          "fromMe": true,
+          "id": "9B167A83D261FCB59BFABABADE6EBE57"
         },
-        "public": {
-          "type": "Buffer",
-          "data": "M7Tca++4w5FKdbhGxS2cgitN03TfH1m6H1zyQLqTTj0="
-        }
+        "message": {
+          "protocolMessage": {
+            "type": "HISTORY_SYNC_NOTIFICATION",
+            "historySyncNotification": {
+              "fileSha256": "NxNmy97OHVTpvjaj19/Vo++VySfHtgIDK0kiyd3fjo8=",
+              "fileLength": "10",
+              "mediaKey": "/8sNRh531ZmMhUW7vFzj805alBTFRVtmUgsTgJmQoNk=",
+              "fileEncSha256": "7seH7m3s91i8jvbJ4ux9AXpF6gsAjFN3lOtx+v01yeM=",
+              "directPath": "/v/t62.31111-24/32478714_100436492919964_9010383519242434660_n.enc?ccb=11-4&oh=01_AdTOvykIPDnNARWTUUz0jua_HhV5_gPId5QDRLFi8mTkmg&oe=63BF71EF"
+            }
+          }
+        },
+        "messageTimestamp": "1670904794",
+        "status": "SERVER_ACK",
+        "pushName": "Aiman"
       },
-      "7": {
-        "private": {
-          "type": "Buffer",
-          "data": "kIbHK0UuDfvCXlwmbKQ4RYOh8t6Q76eTj0+fbLFC/kE="
+      {
+        "key": {
+          "remoteJid": "60147675746@s.whatsapp.net",
+          "fromMe": true,
+          "id": "4B9468F05699C2F3126BF063A6187B70"
         },
-        "public": {
-          "type": "Buffer",
-          "data": "T+5F/9TKgkJxKIp7nR6fSeh/FeF9tlne8jNzREs4x14="
-        }
+        "message": {
+          "protocolMessage": {
+            "type": "HISTORY_SYNC_NOTIFICATION",
+            "historySyncNotification": {
+              "fileSha256": "APBBJRA/ZhnLTbUyI7yrCqjtXiww+JdCmyNK6ZEc84U=",
+              "fileLength": "2683",
+              "mediaKey": "dcouKn5xQXzFCuzI4Y8FBp+vFr5Itu65f1s2yMsIIHs=",
+              "fileEncSha256": "7hhgaM2O9nDgBNRh3N6XgnNoU71Lv5+G28M33hmFOzs=",
+              "directPath": "/v/t62.31111-24/33308596_3399139170331118_7065088932079608605_n.enc?ccb=11-4&oh=01_AdTQLjyi5avZvwKfFPRvBdAKWvhJnYaNIHhdDkkNb6cdHw&oe=63BF7EF9",
+              "syncType": "RECENT",
+              "chunkOrder": 1,
+              "progress": 100
+            }
+          }
+        },
+        "messageTimestamp": "1670904796",
+        "status": "SERVER_ACK",
+        "pushName": "Aiman"
       },
-      "8": {
-        "private": {
-          "type": "Buffer",
-          "data": "kNmPq+KufgH6T5O//ISN8qRPeO12CxAPKwnMefjdEm4="
+      {
+        "key": {
+          "remoteJid": "60147675746@s.whatsapp.net",
+          "fromMe": true,
+          "id": "DF6DC96BB7DFF74C2C571C7B2A933401"
         },
-        "public": {
-          "type": "Buffer",
-          "data": "pnP9EGgJC0Uq0/rDpmgC7NV5Cw6EpDiAnNi1Kw3ZPAE="
-        }
+        "message": {
+          "protocolMessage": {
+            "type": "HISTORY_SYNC_NOTIFICATION",
+            "historySyncNotification": {
+              "fileSha256": "A8gAeHtYIoprUjakiT1YllIEvuLRbuCjDkQPwVhEIQg=",
+              "fileLength": "14",
+              "mediaKey": "NBpTGSiXYe+y8dyhdR+N/XBJ0exk0o1Jf8sBkYsRfrM=",
+              "fileEncSha256": "Re/94wTBMYdLAEjEOhRFUyTxK/8vNTYRo27bGJXGWsU=",
+              "directPath": "/v/t62.31111-24/34942658_585086443381984_2013689243882862093_n.enc?ccb=11-4&oh=01_AdRkxGL4q9LIdq9xUpxmvbR81Y4XmuBSuBbHG_MDVbMbaQ&oe=63BF5FAD",
+              "syncType": "RECENT",
+              "chunkOrder": 2,
+              "progress": 100
+            }
+          }
+        },
+        "messageTimestamp": "1670904796",
+        "status": "SERVER_ACK",
+        "pushName": "Aiman"
       },
-      "9": {
-        "private": {
-          "type": "Buffer",
-          "data": "UM9aGwarzuZjdsLkEEaREuci6Ho3v6DbC8UAuM5q60g="
+      {
+        "key": {
+          "remoteJid": "60147675746@s.whatsapp.net",
+          "fromMe": true,
+          "id": "76C9C77ABFE5A403CF9C44010D630EB2"
         },
-        "public": {
-          "type": "Buffer",
-          "data": "9L5UDWZyE+pEy21KD9mo3ytK3U0e8R5Ym70JZzp77zA="
-        }
-      },
-      "10": {
-        "private": {
-          "type": "Buffer",
-          "data": "0PsdLUq0R8CbFRwQQ5lUSo2CYJgxfvzlPlfLaYcNj0g="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "isunlkeECI0Uz3nSPIcUShW/VSuwHURk9Klc4E5uMUg="
-        }
-      },
-      "11": {
-        "private": {
-          "type": "Buffer",
-          "data": "0Dvzpgwyxz0lzzpcWkOb4+mkti/4Nx4//nXnLASAHW8="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "vI8KRBFFOEp+Iqw8RBVVk+xQeYFi3IBkojRJ5Okmgiw="
-        }
-      },
-      "12": {
-        "private": {
-          "type": "Buffer",
-          "data": "gCMddI/Z3D0VYIkJH3LBekbvE9zl4l0GgNhi7qwVG0k="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "bqT/ymX4tcGN5lICy3ZbMrXW6kEXW/cQwV22ErdzUXE="
-        }
-      },
-      "13": {
-        "private": {
-          "type": "Buffer",
-          "data": "kEU8g19vECgnAQjsw5yiXb1jOYog36ItJVgTJeQWInc="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "AsbsdTNUDbPhfpzD+EiAdfrh1nwbHaFlvQI/jo+5VEo="
-        }
-      },
-      "14": {
-        "private": {
-          "type": "Buffer",
-          "data": "cAsCvTLaHxwej/Su/aOvA/wDujh1vPh32OPLTZD19ko="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "pDuzV3YnHGJ9b22gvf2pXzPkwH9kC1lL9rNzpHRDrDA="
-        }
-      },
-      "15": null,
-      "16": {
-        "private": {
-          "type": "Buffer",
-          "data": "GBHB19FBEBheTEh+s1Gv9hoDCV2IEktaujQttkpYxX4="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "zLJOxNrsAicu8CbN5ZuP7g7Ks9nFTnwd4qKmML6vOSI="
-        }
-      },
-      "17": {
-        "private": {
-          "type": "Buffer",
-          "data": "iFZzUuF3X2djIB7kCjhG2Tr0bgfkdKzfgzCGw2Uvt0M="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "BIJSbNyeaNvl2M21F49pXno5JFkU52zAbW++KT9aSmg="
-        }
-      },
-      "18": {
-        "private": {
-          "type": "Buffer",
-          "data": "cCj2kqM6kAzEVimRJ7P1wN8zmLuapxrj1djx3i10KWw="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "+mtDNjjo72oTR2DHLuZXQiLzGuEyPEvDsQU2M6ZnCRM="
-        }
-      },
-      "19": {
-        "private": {
-          "type": "Buffer",
-          "data": "iMQdVAsEa1tRsBWulO+vVSTWxEs8oxVGr4Ox/IFbl0g="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "1F+c/9aZWmZWXCZAyWHxOB079Tes98Cc8SjC+yzmIUA="
-        }
-      },
-      "20": {
-        "private": {
-          "type": "Buffer",
-          "data": "GOREaesvjQ0ZZ6RbjqBBzGzZMk96hi8ni7yY/OBbV1Y="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "4rQLRXU16zI3R6YRPsoKFRR1iP05GpwoK3AnIRGzmlo="
-        }
-      },
-      "21": {
-        "private": {
-          "type": "Buffer",
-          "data": "INtyRi95W0EQKwwJoXggw2jB0VAs1KuwNkFNCZDISX0="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "sSNf9JNilR/2jH2NyECsfspSQTEKx6ZkMUgGymlY9ms="
-        }
-      },
-      "22": {
-        "private": {
-          "type": "Buffer",
-          "data": "UIJJMqG7UJE0oIFDl53ZqtIhCH77lhUCd4lCldv602Q="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "uVuXqST8k40JsVNDPNsNzu3vd8Xa/pnO16lU0zsbDkk="
-        }
-      },
-      "23": {
-        "private": {
-          "type": "Buffer",
-          "data": "0IaEbh6oChTTrDTGOOiF1mbuXOsxtf907b2pCnB8VHs="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "jj4wt6Rdzm+QfRqDBaKaQdN+bEPSpTC1XpcBlcBQZjQ="
-        }
-      },
-      "24": {
-        "private": {
-          "type": "Buffer",
-          "data": "EIIonQCFTR6+MI1Emdb21FbjFRjgUr9UvNZlDrs8bWI="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "aQV7iHeD5cpsFCPnvNNeO97h3VqVdzi0qIlcJlUhTQ0="
-        }
-      },
-      "25": {
-        "private": {
-          "type": "Buffer",
-          "data": "+IoHx6+gZgPeT7rOgPi0p8xrdiyvaBAaO9KP1NxI23A="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "FyyDCltjFwZ4ZUUA7S/c5NMGyq5C0MNxepubsR+dag4="
-        }
-      },
-      "26": {
-        "private": {
-          "type": "Buffer",
-          "data": "kAD5YCLpw9UI01YGBfLr+NwJk4EweZ6WUo8FcaqwD3A="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "4kLtG+ugTKgbX8B4qP9inA0kAz11/umKniuwl+lIQhw="
-        }
-      },
-      "27": {
-        "private": {
-          "type": "Buffer",
-          "data": "cLsv0urZHjxEBl7Wpi0JYZOniAh48ib174YgLEZzy0Y="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "f7RrU/JJHtVwfU7tBM/3SBrvPChYA0vrpCBMHekWqlQ="
-        }
-      },
-      "28": {
-        "private": {
-          "type": "Buffer",
-          "data": "qH33/VJTG0HjS4Y3VSed8alv8ULnRQxm5wsvH5sYVVU="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "Iyyl25ddRcGgQzRMzgEG7DxfK6MvMoATCQUPe3B1Xl0="
-        }
-      },
-      "29": {
-        "private": {
-          "type": "Buffer",
-          "data": "gGeuu8WuITEBM7JaRt6JTPQFMYw5olW0llYYR6VpnnI="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "JmnperD1f0g7OJbmQRPGaN8DShn64rsRax2wvfJexyk="
-        }
-      },
-      "30": {
-        "private": {
-          "type": "Buffer",
-          "data": "cGvwkk78XudqfTeNH4FxNUyliSW2vo6f/b1Wp4vBX20="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "sHg0GpAd7oWzslaidBUwKktK9nl4M1YsyqLuPygFbz4="
-        }
-      }
-    },
-    "sessions": {
-      "601120787061.0": {
-        "_sessions": {
-          "BYNO3vM05TklIR/8tkMtGE7E8mEE8SfmxMy4NdfiZmVK": {
-            "registrationId": 921493314,
-            "currentRatchet": {
-              "ephemeralKeyPair": {
-                "pubKey": "BRRPFeVqMAPwPo3t/XQzhfaodjMlmyNHOS5lfr7tpLJo",
-                "privKey": "6LrgYrQUCR0fHxplAHUBYtpowtUB/5domZ0BhOPKMHg="
-              },
-              "lastRemoteEphemeralKey": "BQ2vmApIzn4H6sIN92JmlW/WEq5kAGHkhArxftRlJZ4O",
-              "previousCounter": 0,
-              "rootKey": "iFC9QZPZyCD1VF+lS/fSdceyzAdEgiB1Y9Fvg2B2mJM="
-            },
-            "indexInfo": {
-              "baseKey": "BYNO3vM05TklIR/8tkMtGE7E8mEE8SfmxMy4NdfiZmVK",
-              "baseKeyType": 2,
-              "closed": -1,
-              "used": 1666441868571,
-              "created": 1666441868570,
-              "remoteIdentityKey": "BWZQJmyUkOKQYyyjVil4ARleHX4lTzVgWoo/k0KPYb8A"
-            },
-            "_chains": {
-              "BQ2vmApIzn4H6sIN92JmlW/WEq5kAGHkhArxftRlJZ4O": {
-                "chainKey": {
-                  "counter": 7,
-                  "key": "C1JosRtip0dZIZMftK5LekM8ZFVmBESjKjb2w60I7b0="
-                },
-                "chainType": 2,
-                "messageKeys": {}
-              },
-              "BRRPFeVqMAPwPo3t/XQzhfaodjMlmyNHOS5lfr7tpLJo": {
-                "chainKey": {
-                  "counter": -1,
-                  "key": "icg0XoxemUf8B2HRHaLA35WGJeGXDQ33vn0CVxBtK4k="
-                },
-                "chainType": 1,
-                "messageKeys": {}
+        "message": {
+          "extendedTextMessage": {
+            "text": ".yta https://www.youtube.com/watch?v=VYjeTkpaXPU yes",
+            "contextInfo": {
+              "stanzaId": "BAE52AE67E9F548C",
+              "participant": "60147675746@s.whatsapp.net",
+              "quotedMessage": {
+                "templateMessage": {
+                  "hydratedFourRowTemplate": {
+                    "imageMessage": {
+                      "url": "https://mmg.whatsapp.net/d/f/Aq1w-UAdyBbffrfcJDMVY_QwYnjIURXWcsMzw0CEGjne.enc",
+                      "mimetype": "image/jpeg",
+                      "caption": "📌 *Title:* STORY WA 30 DETIK TERBARU, STORY WA TERBARU || Alfi Story || #story\n🔗 *Url:* https://www.youtube.com/watch?v=VYjeTkpaXPU\n🖹 *Description:* tag story wa, story wa kata kata keren, story wa kata kata bijak, story wa terbaru, story wa 30 detik, qoutes keren, qoutes literasi, ...\n⏲️ *Published:* 56 minutes ago\n⌚ *Duration:* 12 seconds\n👁️ *Views:* 106 views",
+                      "fileSha256": "AHW6a9Akrs+XirkswbHndxWETkaTdi7u33GG98o3n8E=",
+                      "fileLength": "35787",
+                      "mediaKey": "9cZoQFr4xFY89wK5oC247X28gTENyfXGEWN5uhV/a5M=",
+                      "fileEncSha256": "oQpzdLSZ+I5QkpClt3pjphrhAk8gPkFTtHIA/Q2lyRQ=",
+                      "directPath": "/v/t62.7118-24/34578307_830144528210832_6496988847593580323_n.enc?ccb=11-4&oh=01_AdQNwybc-mSuGi5PtlzxvdL9BP9sXUCZlpapT027BLfhcg&oe=63BF7A83",
+                      "mediaKeyTimestamp": "1670904898",
+                      "jpegThumbnail": "/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAASACADASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAMGBQQH/8QAJBAAAgIBAwQCAwAAAAAAAAAAAQIAAxEEBRIGEyExQXEiUdH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgH/xAAYEQEBAQEBAAAAAAAAAAAAAAAAMQECEf/aAAwDAQACEQMRAD8AmjqKgcGxc/csuj7UfabGDAgXHyfoTzd35OWOck5MYt7rXxrYlBnKt/IPFp1pu1baSunS31WFLAX4kNg+RiRq3O7GyxvBi7bO8xZUCDGWVfWf2BEyaqQH2Z11gDSUsB+XePn59CEI0ytHfa0r3rjWioDUhwox8TDPswhHLe3/2Q=="
+                    },
+                    "hydratedContentText": "📌 *Title:* STORY WA 30 DETIK TERBARU, STORY WA TERBARU || Alfi Story || #story\n🔗 *Url:* https://www.youtube.com/watch?v=VYjeTkpaXPU\n🖹 *Description:* tag story wa, story wa kata kata keren, story wa kata kata bijak, story wa terbaru, story wa 30 detik, qoutes keren, qoutes literasi, ...\n⏲️ *Published:* 56 minutes ago\n⌚ *Duration:* 12 seconds\n👁️ *Views:* 106 views",
+                    "hydratedFooterText": "Bot",
+                    "hydratedButtons": [
+                      {
+                        "urlButton": {
+                          "displayText": "📺Go To Youtube!",
+                          "url": "https://www.youtube.com/watch?v=VYjeTkpaXPU"
+                        },
+                        "index": 0
+                      },
+                      {
+                        "quickReplyButton": {
+                          "displayText": "Audio 🎧",
+                          "id": ".yta https://www.youtube.com/watch?v=VYjeTkpaXPU yes"
+                        },
+                        "index": 1
+                      },
+                      {
+                        "quickReplyButton": {
+                          "displayText": "Video 🎥",
+                          "id": ".ytv https://www.youtube.com/watch?v=VYjeTkpaXPU yes"
+                        },
+                        "index": 2
+                      },
+                      {
+                        "quickReplyButton": {
+                          "displayText": "Youtube Search🔎",
+                          "id": ".yts https://www.youtube.com/watch?v=VYjeTkpaXPU"
+                        },
+                        "index": 3
+                      }
+                    ]
+                  },
+                  "hydratedTemplate": {
+                    "imageMessage": {
+                      "url": "https://mmg.whatsapp.net/d/f/Aq1w-UAdyBbffrfcJDMVY_QwYnjIURXWcsMzw0CEGjne.enc",
+                      "mimetype": "image/jpeg",
+                      "caption": "📌 *Title:* STORY WA 30 DETIK TERBARU, STORY WA TERBARU || Alfi Story || #story\n🔗 *Url:* https://www.youtube.com/watch?v=VYjeTkpaXPU\n🖹 *Description:* tag story wa, story wa kata kata keren, story wa kata kata bijak, story wa terbaru, story wa 30 detik, qoutes keren, qoutes literasi, ...\n⏲️ *Published:* 56 minutes ago\n⌚ *Duration:* 12 seconds\n👁️ *Views:* 106 views",
+                      "fileSha256": "AHW6a9Akrs+XirkswbHndxWETkaTdi7u33GG98o3n8E=",
+                      "fileLength": "35787",
+                      "mediaKey": "9cZoQFr4xFY89wK5oC247X28gTENyfXGEWN5uhV/a5M=",
+                      "fileEncSha256": "oQpzdLSZ+I5QkpClt3pjphrhAk8gPkFTtHIA/Q2lyRQ=",
+                      "directPath": "/v/t62.7118-24/34578307_830144528210832_6496988847593580323_n.enc?ccb=11-4&oh=01_AdQNwybc-mSuGi5PtlzxvdL9BP9sXUCZlpapT027BLfhcg&oe=63BF7A83",
+                      "mediaKeyTimestamp": "1670904898",
+                      "jpegThumbnail": "/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAASACADASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAMGBQQH/8QAJBAAAgIBAwQCAwAAAAAAAAAAAQIAAxEEBRIGEyExQXEiUdH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgH/xAAYEQEBAQEBAAAAAAAAAAAAAAAAMQECEf/aAAwDAQACEQMRAD8AmjqKgcGxc/csuj7UfabGDAgXHyfoTzd35OWOck5MYt7rXxrYlBnKt/IPFp1pu1baSunS31WFLAX4kNg+RiRq3O7GyxvBi7bO8xZUCDGWVfWf2BEyaqQH2Z11gDSUsB+XePn59CEI0ytHfa0r3rjWioDUhwox8TDPswhHLe3/2Q=="
+                    },
+                    "hydratedContentText": "📌 *Title:* STORY WA 30 DETIK TERBARU, STORY WA TERBARU || Alfi Story || #story\n🔗 *Url:* https://www.youtube.com/watch?v=VYjeTkpaXPU\n🖹 *Description:* tag story wa, story wa kata kata keren, story wa kata kata bijak, story wa terbaru, story wa 30 detik, qoutes keren, qoutes literasi, ...\n⏲️ *Published:* 56 minutes ago\n⌚ *Duration:* 12 seconds\n👁️ *Views:* 106 views",
+                    "hydratedFooterText": "Bot",
+                    "hydratedButtons": [
+                      {
+                        "urlButton": {
+                          "displayText": "📺Go To Youtube!",
+                          "url": "https://www.youtube.com/watch?v=VYjeTkpaXPU"
+                        },
+                        "index": 0
+                      },
+                      {
+                        "quickReplyButton": {
+                          "displayText": "Audio 🎧",
+                          "id": ".yta https://www.youtube.com/watch?v=VYjeTkpaXPU yes"
+                        },
+                        "index": 1
+                      },
+                      {
+                        "quickReplyButton": {
+                          "displayText": "Video 🎥",
+                          "id": ".ytv https://www.youtube.com/watch?v=VYjeTkpaXPU yes"
+                        },
+                        "index": 2
+                      },
+                      {
+                        "quickReplyButton": {
+                          "displayText": "Youtube Search🔎",
+                          "id": ".yts https://www.youtube.com/watch?v=VYjeTkpaXPU"
+                        },
+                        "index": 3
+                      }
+                    ]
+                  }
+                }
               }
             }
           }
         },
-        "version": "v1"
+        "messageTimestamp": "1670904945",
+        "status": "PENDING",
+        "pushName": "Aiman"
       }
-    },
-    "appStateSyncKeys": {
-      "AAAAAG9W": {
-        "keyData": "EnebbGJDystVsy/++TPQUobaR+7vES5vvS587dH5KLM=",
-        "fingerprint": {
-          "rawId": 1647884518,
-          "currentIndex": 1,
-          "deviceIndexes": [
-            0,
-            1
-          ]
+    ],
+    "60102810046@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": true,
+          "id": "E8ED3B2D4F0E3D096469990A159D62D6"
         },
-        "timestamp": "1666441868335"
+        "messageTimestamp": "1670903826",
+        "messageStubType": "E2E_ENCRYPTED"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": false,
+          "id": "A80726401F040C0549280520853F847E"
+        },
+        "message": {
+          "extendedTextMessage": {
+            "text": "Helo",
+            "previewType": "NONE",
+            "contextInfo": {
+              "forwardingScore": 256,
+              "isForwarded": true
+            },
+            "inviteLinkGroupTypeV2": "DEFAULT"
+          }
+        },
+        "messageTimestamp": "1670903815",
+        "ephemeralOutOfSync": false
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": true,
+          "id": "F75D9C580F563602C2331151148FC136"
+        },
+        "message": {
+          "conversation": ".menu"
+        },
+        "messageTimestamp": "1670904828",
+        "status": "READ",
+        "pushName": "Aiman"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": true,
+          "id": "BAE5F31DF326222F"
+        },
+        "message": {
+          "templateMessage": {
+            "fourRowTemplate": {
+              "imageMessage": {
+                "url": "https://mmg.whatsapp.net/d/f/AousYoUiMaMTeUUuA_FLtR5JZEFVhPBEl5uoaV2Kr1l8.enc",
+                "mimetype": "image/png",
+                "caption": "╭─「 Aiman 🤖」\n│ 👋🏻 Hai, Aiman!\n│\n│ 🧱 Limit : *100 Limit*\n│ 🦸🏼‍♂️ Role : *Beginner*\n│ 🔼 Level : *0 (43 / 69)*\n│ 💫 Total XP : 43 ✨\n│ \n│ 📅 Tarikh: *Selasa, 13 Desember 2022*\n│ 🕰️ Waktu: *04.13.48*\n│\n│ 📈 Uptime: *00:01:22 (00:01:23)*\n│ 📊 Database: 0 of 1\n╰────\n‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎\n╭─「 Main 」\n│ • .afk [alasan]\n│ • .jadian\n│ • .menu\n│ • .help\n│ • .?\n╰────\n\n╭─「 Game 」\n│ • .caklontong\n│ • .family100\n│ • .math <mode>\n│ • .siapakahaku\n│ • .tebakgambar\n│ • .tebakkata\n│ • .tictactoe [custom room name]\n│ • .ttt [custom room name]\n╰────\n\n╭─「 RPG Games 」\n│ • .adventure\n│ • .petualang\n│ • .berpetualang\n│ • .mulung\n│ • .judi [jumlah]\n│ • .heal\n│ • .inventory\n│ • .inv\n│ • .monthly\n│ • .open [crate] [count]\n│ • .gacha [crate] [count]\n│ • .buy [item] [count]\n│ • .sell [item] [count]\n│ • .transfer [type] [jumlah] [@tag]\n│ • .tf [type] [jumlah] [@tag]\n╰────\n\n╭─「 Exp & Limit 」\n│ • .levelup\n│ • .daily\n│ • .claim\n│ • .leaderboard [jumlah user]\n│ • .lb [jumlah user]\n╰────\n\n╭─「 Sticker 」\n│ • .attp <teks>\n│ • .getexif\n│ • .stiker (caption|reply media)\n│ • .stiker <url>\n│ • .stikergif (caption|reply media)\n│ • .stikergif <url>\n│ • .stikerline <url> (Limit)\n│ • .toimg (reply)\n│ • .toimg2 (reply)\n│ • .ttp <teks>\n│ • .wm <packname>|<author>\n╰────\n\n╭─「 Kerang Ajaib 」\n│ • apakah <teks>?\n│ • .apakah <teks>?\n│ • .howgay siapa?\n│ • .howpintar siapa?\n│ • .howcantik siapa?\n│ • .howganteng siapa?\n│ • .howgabut siapa?\n│ • .howgila siapa?\n│ • .howlesbi siapa?\n│ • .howstress siapa?\n│ • .howbucin siapa?\n│ • .howjones siapa?\n│ • .howsadboy siapa?\n│ • kapan <text>?\n│ • kapankah <text>?\n│ • .kapan <text>?\n│ • .kapankah <text>?\n│ • .kerang <teks>\n│ • .kerangajaib <teks>\n╰────\n\n╭─「 Quotes 」\n│ • .bucin\n│ • .dare\n│ • .truth\n╰────\n\n╭─「 Admin 」\n╰────\n\n╭─「 Group 」\n│ • .enable <option>\n│ • .disable <option>\n│ • .infogrup\n│ • .leavegc\n│ • .leavegcall\n│ • .leavegroup\n│ • .linkgroup\n│ • .pengumuman [teks]\n│ • .announce [teks]\n│ • .hidetag [teks]\n│ • .group *open / close*\n│ • .tagall\n╰────\n\n╭─「 Premium 」\n│ • .join <chat.whatsapp.com>\n╰────\n\n╭─「 Internet 」\n│ • .waifu\n│ • .google <pencarian>\n│ • .googlef <pencarian>\n│ • .gimage <query>\n│ • .image <query>\n│ • .pinterest <keyword>\n│ • .fetch <url>\n│ • .get <url>\n│ • .kbbi <teks>\n│ • .lirik <Apa>\n│ • .wikipedia <apa>\n╰────\n\n╭─「 Anonymous Chat 」\n│ • .start\n│ • .leave\n│ • .next\n╰────\n\n╭─「 MagerNulis & Logo 」\n│ • .tahta <teks> (Limit)\n│ • .nulis <teks>\n╰────\n\n╭─「 Downloader 」\n│ • .facebook <url>\n│ • .gitclone <url> (Limit)\n│ • .ig <url>\n│ • .igstalk <username>\n│ • .mediafire <url> (Limit)\n│ • .tiktok <url>\n│ • .wallpaper <query>\n│ • .wallpaper2 <query>\n│ • .play <pencarian>\n│ • .play2 <pencarian>\n│ • .ytmp3 <url> <without message>\n│ • .yta <url> <without message>\n│ • .ytmp4 <url> <without message>\n│ • .ytv <url> <without message>\n│ • .yt <url> <without message>\n╰────\n\n╭─「 Tools 」\n│ • .gimage <query>\n│ • .image <query>\n│ • .nulis2 <teks>\n│ • .ping\n│ • .speed\n│ • .del\n│ • .delete\n│ • .halah <teks>\n│ • .hilih <teks>\n│ • .huluh <teks>\n│ • .heleh <teks>\n│ • .holoh <teks>\n│ • .qr <teks>\n│ • .qrcode <teks>\n│ • .readmore <teks>|<teks>\n│ • .spoiler <teks>|<teks>\n│ • .readviewonce\n│ • .style <text>\n│ • .tts <lang> <teks>\n│ • .yts <pencarian>\n│ • .ytsearch <pencarian>\n╰────\n\n╭─「 Fun 」\n│ • apakah <teks>?\n│ • .apakah <teks>?\n│ • .namaninja <teks>\n│ • .purba <teks>\n│ • .howgay siapa?\n│ • .howpintar siapa?\n│ • .howcantik siapa?\n│ • .howganteng siapa?\n│ • .howgabut siapa?\n│ • .howgila siapa?\n│ • .howlesbi siapa?\n│ • .howstress siapa?\n│ • .howbucin siapa?\n│ • .howjones siapa?\n│ • .howsadboy siapa?\n│ • .jadian\n│ • kapan <text>?\n│ • kapankah <text>?\n│ • .kapan <text>?\n│ • .kapankah <text>?\n│ • .kerang <teks>\n│ • .kerangajaib <teks>\n│ • .dare\n│ • .truth\n╰────\n\n╭─「 Database 」\n│ • .delcmd <teks>\n│ • .listcmd\n│ • .unlockcmd\n│ • .lockcmd\n│ • .setcmd <teks>\n│ • .addmsg <teks>\n│ • .delmsg <teks>\n│ • .listmsg\n╰────\n\n╭─「 Voting 」\n╰────\n\n╭─「 Absen 」\n╰────\n\n╭─「 Al Qur'an 」\n│ • .salat <daerah>\n╰────\n\n╭─「 Jadi Bot 」\n╰────\n\n╭─「 Owner 」\n│ • .broadcast <teks>\n│ • .bc <teks>\n│ • .broadcastchats <teks>\n│ • .bcchats <teks>\n│ • .broadcastgroup <teks>\n│ • .bcgc <teks>\n│ • .enable <option>\n│ • .disable <option>\n│ • .oadd @user\n│ • .o+ @user\n│ • .banchat\n│ • .ban @user\n│ • .getplugin <name file>\n│ • .getfile <name file>\n│ • .okick @user\n│ • .o- @user\n│ • .saveplugin <name file>\n│ • .savefile <name file>\n│ • .unbanchat\n│ • .unban @user\n╰────\n\n╭─「 Host 」\n╰────\n\n╭─「 Advanced 」\n│ • >\n│ • =>\n╰────\n\n╭─「 Info 」\n│ • .owner\n│ • .creator\n│ • .donasi\n│ • .groups\n│ • .grouplist\n│ • .ping\n│ • .speed\n╰────\n\n╭─「 No Category 」\n╰────\n\n╭─「 maker 」\n│ • .lolice\n╰────\n\n╭─「 audio 」\n│ • .tomp3 (reply)\n│ • .tovn (reply)\n╰────\n\n\n*games-wabot* | 2.2.0\n```Customizable WhatsApp Bot```",
+                "fileSha256": "VJIEzuewuKey7hhDVbfScdQm0zaLx55FaN3WjDix30o=",
+                "fileLength": "1187",
+                "mediaKey": "zGIUqjB9IU06xoVxUncYgRVpRI+nqKlfSrYlbaVoDvw=",
+                "fileEncSha256": "gZGkeXx2JZritUwt33Spn/x5GSZ2J9MCefNJgBssNyc=",
+                "directPath": "/v/t62.7118-24/25987774_545668424095501_5542684627511644895_n.enc?ccb=11-4&oh=01_AdSw-YLl4oLY7j41CSVeCL4_fkJaD8WzFhLyqL3yuJIHJw&oe=63BF5D0F",
+                "mediaKeyTimestamp": "1670904829"
+              }
+            },
+            "contextInfo": {
+              "stanzaId": "F75D9C580F563602C2331151148FC136",
+              "participant": "60147675746@s.whatsapp.net",
+              "quotedMessage": {
+                "conversation": ".menu"
+              }
+            },
+            "hydratedTemplate": {
+              "imageMessage": {
+                "url": "https://mmg.whatsapp.net/d/f/AousYoUiMaMTeUUuA_FLtR5JZEFVhPBEl5uoaV2Kr1l8.enc",
+                "mimetype": "image/png",
+                "caption": "╭─「 Aiman 🤖」\n│ 👋🏻 Hai, Aiman!\n│\n│ 🧱 Limit : *100 Limit*\n│ 🦸🏼‍♂️ Role : *Beginner*\n│ 🔼 Level : *0 (43 / 69)*\n│ 💫 Total XP : 43 ✨\n│ \n│ 📅 Tarikh: *Selasa, 13 Desember 2022*\n│ 🕰️ Waktu: *04.13.48*\n│\n│ 📈 Uptime: *00:01:22 (00:01:23)*\n│ 📊 Database: 0 of 1\n╰────\n‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎\n╭─「 Main 」\n│ • .afk [alasan]\n│ • .jadian\n│ • .menu\n│ • .help\n│ • .?\n╰────\n\n╭─「 Game 」\n│ • .caklontong\n│ • .family100\n│ • .math <mode>\n│ • .siapakahaku\n│ • .tebakgambar\n│ • .tebakkata\n│ • .tictactoe [custom room name]\n│ • .ttt [custom room name]\n╰────\n\n╭─「 RPG Games 」\n│ • .adventure\n│ • .petualang\n│ • .berpetualang\n│ • .mulung\n│ • .judi [jumlah]\n│ • .heal\n│ • .inventory\n│ • .inv\n│ • .monthly\n│ • .open [crate] [count]\n│ • .gacha [crate] [count]\n│ • .buy [item] [count]\n│ • .sell [item] [count]\n│ • .transfer [type] [jumlah] [@tag]\n│ • .tf [type] [jumlah] [@tag]\n╰────\n\n╭─「 Exp & Limit 」\n│ • .levelup\n│ • .daily\n│ • .claim\n│ • .leaderboard [jumlah user]\n│ • .lb [jumlah user]\n╰────\n\n╭─「 Sticker 」\n│ • .attp <teks>\n│ • .getexif\n│ • .stiker (caption|reply media)\n│ • .stiker <url>\n│ • .stikergif (caption|reply media)\n│ • .stikergif <url>\n│ • .stikerline <url> (Limit)\n│ • .toimg (reply)\n│ • .toimg2 (reply)\n│ • .ttp <teks>\n│ • .wm <packname>|<author>\n╰────\n\n╭─「 Kerang Ajaib 」\n│ • apakah <teks>?\n│ • .apakah <teks>?\n│ • .howgay siapa?\n│ • .howpintar siapa?\n│ • .howcantik siapa?\n│ • .howganteng siapa?\n│ • .howgabut siapa?\n│ • .howgila siapa?\n│ • .howlesbi siapa?\n│ • .howstress siapa?\n│ • .howbucin siapa?\n│ • .howjones siapa?\n│ • .howsadboy siapa?\n│ • kapan <text>?\n│ • kapankah <text>?\n│ • .kapan <text>?\n│ • .kapankah <text>?\n│ • .kerang <teks>\n│ • .kerangajaib <teks>\n╰────\n\n╭─「 Quotes 」\n│ • .bucin\n│ • .dare\n│ • .truth\n╰────\n\n╭─「 Admin 」\n╰────\n\n╭─「 Group 」\n│ • .enable <option>\n│ • .disable <option>\n│ • .infogrup\n│ • .leavegc\n│ • .leavegcall\n│ • .leavegroup\n│ • .linkgroup\n│ • .pengumuman [teks]\n│ • .announce [teks]\n│ • .hidetag [teks]\n│ • .group *open / close*\n│ • .tagall\n╰────\n\n╭─「 Premium 」\n│ • .join <chat.whatsapp.com>\n╰────\n\n╭─「 Internet 」\n│ • .waifu\n│ • .google <pencarian>\n│ • .googlef <pencarian>\n│ • .gimage <query>\n│ • .image <query>\n│ • .pinterest <keyword>\n│ • .fetch <url>\n│ • .get <url>\n│ • .kbbi <teks>\n│ • .lirik <Apa>\n│ • .wikipedia <apa>\n╰────\n\n╭─「 Anonymous Chat 」\n│ • .start\n│ • .leave\n│ • .next\n╰────\n\n╭─「 MagerNulis & Logo 」\n│ • .tahta <teks> (Limit)\n│ • .nulis <teks>\n╰────\n\n╭─「 Downloader 」\n│ • .facebook <url>\n│ • .gitclone <url> (Limit)\n│ • .ig <url>\n│ • .igstalk <username>\n│ • .mediafire <url> (Limit)\n│ • .tiktok <url>\n│ • .wallpaper <query>\n│ • .wallpaper2 <query>\n│ • .play <pencarian>\n│ • .play2 <pencarian>\n│ • .ytmp3 <url> <without message>\n│ • .yta <url> <without message>\n│ • .ytmp4 <url> <without message>\n│ • .ytv <url> <without message>\n│ • .yt <url> <without message>\n╰────\n\n╭─「 Tools 」\n│ • .gimage <query>\n│ • .image <query>\n│ • .nulis2 <teks>\n│ • .ping\n│ • .speed\n│ • .del\n│ • .delete\n│ • .halah <teks>\n│ • .hilih <teks>\n│ • .huluh <teks>\n│ • .heleh <teks>\n│ • .holoh <teks>\n│ • .qr <teks>\n│ • .qrcode <teks>\n│ • .readmore <teks>|<teks>\n│ • .spoiler <teks>|<teks>\n│ • .readviewonce\n│ • .style <text>\n│ • .tts <lang> <teks>\n│ • .yts <pencarian>\n│ • .ytsearch <pencarian>\n╰────\n\n╭─「 Fun 」\n│ • apakah <teks>?\n│ • .apakah <teks>?\n│ • .namaninja <teks>\n│ • .purba <teks>\n│ • .howgay siapa?\n│ • .howpintar siapa?\n│ • .howcantik siapa?\n│ • .howganteng siapa?\n│ • .howgabut siapa?\n│ • .howgila siapa?\n│ • .howlesbi siapa?\n│ • .howstress siapa?\n│ • .howbucin siapa?\n│ • .howjones siapa?\n│ • .howsadboy siapa?\n│ • .jadian\n│ • kapan <text>?\n│ • kapankah <text>?\n│ • .kapan <text>?\n│ • .kapankah <text>?\n│ • .kerang <teks>\n│ • .kerangajaib <teks>\n│ • .dare\n│ • .truth\n╰────\n\n╭─「 Database 」\n│ • .delcmd <teks>\n│ • .listcmd\n│ • .unlockcmd\n│ • .lockcmd\n│ • .setcmd <teks>\n│ • .addmsg <teks>\n│ • .delmsg <teks>\n│ • .listmsg\n╰────\n\n╭─「 Voting 」\n╰────\n\n╭─「 Absen 」\n╰────\n\n╭─「 Al Qur'an 」\n│ • .salat <daerah>\n╰────\n\n╭─「 Jadi Bot 」\n╰────\n\n╭─「 Owner 」\n│ • .broadcast <teks>\n│ • .bc <teks>\n│ • .broadcastchats <teks>\n│ • .bcchats <teks>\n│ • .broadcastgroup <teks>\n│ • .bcgc <teks>\n│ • .enable <option>\n│ • .disable <option>\n│ • .oadd @user\n│ • .o+ @user\n│ • .banchat\n│ • .ban @user\n│ • .getplugin <name file>\n│ • .getfile <name file>\n│ • .okick @user\n│ • .o- @user\n│ • .saveplugin <name file>\n│ • .savefile <name file>\n│ • .unbanchat\n│ • .unban @user\n╰────\n\n╭─「 Host 」\n╰────\n\n╭─「 Advanced 」\n│ • >\n│ • =>\n╰────\n\n╭─「 Info 」\n│ • .owner\n│ • .creator\n│ • .donasi\n│ • .groups\n│ • .grouplist\n│ • .ping\n│ • .speed\n╰────\n\n╭─「 No Category 」\n╰────\n\n╭─「 maker 」\n│ • .lolice\n╰────\n\n╭─「 audio 」\n│ • .tomp3 (reply)\n│ • .tovn (reply)\n╰────\n\n\n*games-wabot* | 2.2.0\n```Customizable WhatsApp Bot```",
+                "fileSha256": "VJIEzuewuKey7hhDVbfScdQm0zaLx55FaN3WjDix30o=",
+                "fileLength": "1187",
+                "mediaKey": "zGIUqjB9IU06xoVxUncYgRVpRI+nqKlfSrYlbaVoDvw=",
+                "fileEncSha256": "gZGkeXx2JZritUwt33Spn/x5GSZ2J9MCefNJgBssNyc=",
+                "directPath": "/v/t62.7118-24/25987774_545668424095501_5542684627511644895_n.enc?ccb=11-4&oh=01_AdSw-YLl4oLY7j41CSVeCL4_fkJaD8WzFhLyqL3yuJIHJw&oe=63BF5D0F",
+                "mediaKeyTimestamp": "1670904829"
+              },
+              "hydratedContentText": "╭─「 Aiman 🤖」\n│ 👋🏻 Hai, Aiman!\n│\n│ 🧱 Limit : *100 Limit*\n│ 🦸🏼‍♂️ Role : *Beginner*\n│ 🔼 Level : *0 (43 / 69)*\n│ 💫 Total XP : 43 ✨\n│ \n│ 📅 Tarikh: *Selasa, 13 Desember 2022*\n│ 🕰️ Waktu: *04.13.48*\n│\n│ 📈 Uptime: *00:01:22 (00:01:23)*\n│ 📊 Database: 0 of 1\n╰────\n‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎\n╭─「 Main 」\n│ • .afk [alasan]\n│ • .jadian\n│ • .menu\n│ • .help\n│ • .?\n╰────\n\n╭─「 Game 」\n│ • .caklontong\n│ • .family100\n│ • .math <mode>\n│ • .siapakahaku\n│ • .tebakgambar\n│ • .tebakkata\n│ • .tictactoe [custom room name]\n│ • .ttt [custom room name]\n╰────\n\n╭─「 RPG Games 」\n│ • .adventure\n│ • .petualang\n│ • .berpetualang\n│ • .mulung\n│ • .judi [jumlah]\n│ • .heal\n│ • .inventory\n│ • .inv\n│ • .monthly\n│ • .open [crate] [count]\n│ • .gacha [crate] [count]\n│ • .buy [item] [count]\n│ • .sell [item] [count]\n│ • .transfer [type] [jumlah] [@tag]\n│ • .tf [type] [jumlah] [@tag]\n╰────\n\n╭─「 Exp & Limit 」\n│ • .levelup\n│ • .daily\n│ • .claim\n│ • .leaderboard [jumlah user]\n│ • .lb [jumlah user]\n╰────\n\n╭─「 Sticker 」\n│ • .attp <teks>\n│ • .getexif\n│ • .stiker (caption|reply media)\n│ • .stiker <url>\n│ • .stikergif (caption|reply media)\n│ • .stikergif <url>\n│ • .stikerline <url> (Limit)\n│ • .toimg (reply)\n│ • .toimg2 (reply)\n│ • .ttp <teks>\n│ • .wm <packname>|<author>\n╰────\n\n╭─「 Kerang Ajaib 」\n│ • apakah <teks>?\n│ • .apakah <teks>?\n│ • .howgay siapa?\n│ • .howpintar siapa?\n│ • .howcantik siapa?\n│ • .howganteng siapa?\n│ • .howgabut siapa?\n│ • .howgila siapa?\n│ • .howlesbi siapa?\n│ • .howstress siapa?\n│ • .howbucin siapa?\n│ • .howjones siapa?\n│ • .howsadboy siapa?\n│ • kapan <text>?\n│ • kapankah <text>?\n│ • .kapan <text>?\n│ • .kapankah <text>?\n│ • .kerang <teks>\n│ • .kerangajaib <teks>\n╰────\n\n╭─「 Quotes 」\n│ • .bucin\n│ • .dare\n│ • .truth\n╰────\n\n╭─「 Admin 」\n╰────\n\n╭─「 Group 」\n│ • .enable <option>\n│ • .disable <option>\n│ • .infogrup\n│ • .leavegc\n│ • .leavegcall\n│ • .leavegroup\n│ • .linkgroup\n│ • .pengumuman [teks]\n│ • .announce [teks]\n│ • .hidetag [teks]\n│ • .group *open / close*\n│ • .tagall\n╰────\n\n╭─「 Premium 」\n│ • .join <chat.whatsapp.com>\n╰────\n\n╭─「 Internet 」\n│ • .waifu\n│ • .google <pencarian>\n│ • .googlef <pencarian>\n│ • .gimage <query>\n│ • .image <query>\n│ • .pinterest <keyword>\n│ • .fetch <url>\n│ • .get <url>\n│ • .kbbi <teks>\n│ • .lirik <Apa>\n│ • .wikipedia <apa>\n╰────\n\n╭─「 Anonymous Chat 」\n│ • .start\n│ • .leave\n│ • .next\n╰────\n\n╭─「 MagerNulis & Logo 」\n│ • .tahta <teks> (Limit)\n│ • .nulis <teks>\n╰────\n\n╭─「 Downloader 」\n│ • .facebook <url>\n│ • .gitclone <url> (Limit)\n│ • .ig <url>\n│ • .igstalk <username>\n│ • .mediafire <url> (Limit)\n│ • .tiktok <url>\n│ • .wallpaper <query>\n│ • .wallpaper2 <query>\n│ • .play <pencarian>\n│ • .play2 <pencarian>\n│ • .ytmp3 <url> <without message>\n│ • .yta <url> <without message>\n│ • .ytmp4 <url> <without message>\n│ • .ytv <url> <without message>\n│ • .yt <url> <without message>\n╰────\n\n╭─「 Tools 」\n│ • .gimage <query>\n│ • .image <query>\n│ • .nulis2 <teks>\n│ • .ping\n│ • .speed\n│ • .del\n│ • .delete\n│ • .halah <teks>\n│ • .hilih <teks>\n│ • .huluh <teks>\n│ • .heleh <teks>\n│ • .holoh <teks>\n│ • .qr <teks>\n│ • .qrcode <teks>\n│ • .readmore <teks>|<teks>\n│ • .spoiler <teks>|<teks>\n│ • .readviewonce\n│ • .style <text>\n│ • .tts <lang> <teks>\n│ • .yts <pencarian>\n│ • .ytsearch <pencarian>\n╰────\n\n╭─「 Fun 」\n│ • apakah <teks>?\n│ • .apakah <teks>?\n│ • .namaninja <teks>\n│ • .purba <teks>\n│ • .howgay siapa?\n│ • .howpintar siapa?\n│ • .howcantik siapa?\n│ • .howganteng siapa?\n│ • .howgabut siapa?\n│ • .howgila siapa?\n│ • .howlesbi siapa?\n│ • .howstress siapa?\n│ • .howbucin siapa?\n│ • .howjones siapa?\n│ • .howsadboy siapa?\n│ • .jadian\n│ • kapan <text>?\n│ • kapankah <text>?\n│ • .kapan <text>?\n│ • .kapankah <text>?\n│ • .kerang <teks>\n│ • .kerangajaib <teks>\n│ • .dare\n│ • .truth\n╰────\n\n╭─「 Database 」\n│ • .delcmd <teks>\n│ • .listcmd\n│ • .unlockcmd\n│ • .lockcmd\n│ • .setcmd <teks>\n│ • .addmsg <teks>\n│ • .delmsg <teks>\n│ • .listmsg\n╰────\n\n╭─「 Voting 」\n╰────\n\n╭─「 Absen 」\n╰────\n\n╭─「 Al Qur'an 」\n│ • .salat <daerah>\n╰────\n\n╭─「 Jadi Bot 」\n╰────\n\n╭─「 Owner 」\n│ • .broadcast <teks>\n│ • .bc <teks>\n│ • .broadcastchats <teks>\n│ • .bcchats <teks>\n│ • .broadcastgroup <teks>\n│ • .bcgc <teks>\n│ • .enable <option>\n│ • .disable <option>\n│ • .oadd @user\n│ • .o+ @user\n│ • .banchat\n│ • .ban @user\n│ • .getplugin <name file>\n│ • .getfile <name file>\n│ • .okick @user\n│ • .o- @user\n│ • .saveplugin <name file>\n│ • .savefile <name file>\n│ • .unbanchat\n│ • .unban @user\n╰────\n\n╭─「 Host 」\n╰────\n\n╭─「 Advanced 」\n│ • >\n│ • =>\n╰────\n\n╭─「 Info 」\n│ • .owner\n│ • .creator\n│ • .donasi\n│ • .groups\n│ • .grouplist\n│ • .ping\n│ • .speed\n╰────\n\n╭─「 No Category 」\n╰────\n\n╭─「 maker 」\n│ • .lolice\n╰────\n\n╭─「 audio 」\n│ • .tomp3 (reply)\n│ • .tovn (reply)\n╰────\n\n\n*games-wabot* | 2.2.0\n```Customizable WhatsApp Bot```",
+              "hydratedFooterText": "Bot",
+              "hydratedButtons": [
+                {
+                  "urlButton": {
+                    "displayText": "Github",
+                    "url": "https://github.com/ai-man-123"
+                  },
+                  "index": 1
+                },
+                {
+                  "quickReplyButton": {
+                    "displayText": "Speed",
+                    "id": "/ping"
+                  },
+                  "index": 2
+                },
+                {
+                  "quickReplyButton": {
+                    "displayText": "Owner",
+                    "id": "/owner"
+                  },
+                  "index": 3
+                }
+              ]
+            }
+          }
+        },
+        "messageTimestamp": "1670904829",
+        "status": "DELIVERY_ACK"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": false,
+          "id": "B742E64CB65B01C6198F36361B3CE904"
+        },
+        "message": {
+          "extendedTextMessage": {
+            "text": ".menu",
+            "previewType": "NONE",
+            "inviteLinkGroupTypeV2": "DEFAULT"
+          }
+        },
+        "messageTimestamp": "1670904861",
+        "status": "READ",
+        "pushName": "ꋬ꒐ꂵꋬꋊ メ"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": true,
+          "id": "BAE5A48E38CCAFC4"
+        },
+        "message": {
+          "templateMessage": {
+            "fourRowTemplate": {
+              "documentMessage": {
+                "url": "https://mmg.whatsapp.net/d/f/ApKALXGJJB-4G3vRN4Nhs1kIrYD4ooWidT0UlnPV7ABP.enc",
+                "mimetype": "application/pdf",
+                "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+                "fileLength": "0",
+                "mediaKey": "Hawb2u822o51ZtSNHHadyLF4ZU4/5Zg+sfwG8uqz3Y0=",
+                "fileName": "file",
+                "fileEncSha256": "t6wSa6ACL7lOeQ2NgF8MxJgaiVad+B2zKvk6nD6dQxY=",
+                "directPath": "/v/t62.7119-24/20118858_111086305181769_4368996192729223746_n.enc?ccb=11-4&oh=01_AdRQJ8B-ZCtRnh0XEhhmf-Yqv33d35LPaK7sGs_3DrIapA&oe=63BF87EF",
+                "mediaKeyTimestamp": "1670904862",
+                "caption": "╭─「 Aiman 🤖」\n│ 👋🏻 Hai, ꋬ꒐ꂵꋬꋊ メ!\n│\n│ 🧱 Limit : *100 Limit*\n│ 🦸🏼‍♂️ Role : *Beginner*\n│ 🔼 Level : *0 (0 / 69)*\n│ 💫 Total XP : 0 ✨\n│ \n│ 📅 Tarikh: *Selasa, 13 Desember 2022*\n│ 🕰️ Waktu: *04.14.21*\n│\n│ 📈 Uptime: *00:01:56 (00:01:56)*\n│ 📊 Database: 0 of 2\n╰────\n‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎\n╭─「 Main 」\n│ • .afk [alasan]\n│ • .jadian\n│ • .menu\n│ • .help\n│ • .?\n╰────\n\n╭─「 Game 」\n│ • .caklontong\n│ • .family100\n│ • .math <mode>\n│ • .siapakahaku\n│ • .tebakgambar\n│ • .tebakkata\n│ • .tictactoe [custom room name]\n│ • .ttt [custom room name]\n╰────\n\n╭─「 RPG Games 」\n│ • .adventure\n│ • .petualang\n│ • .berpetualang\n│ • .mulung\n│ • .judi [jumlah]\n│ • .heal\n│ • .inventory\n│ • .inv\n│ • .monthly\n│ • .open [crate] [count]\n│ • .gacha [crate] [count]\n│ • .buy [item] [count]\n│ • .sell [item] [count]\n│ • .transfer [type] [jumlah] [@tag]\n│ • .tf [type] [jumlah] [@tag]\n╰────\n\n╭─「 Exp & Limit 」\n│ • .levelup\n│ • .daily\n│ • .claim\n│ • .leaderboard [jumlah user]\n│ • .lb [jumlah user]\n╰────\n\n╭─「 Sticker 」\n│ • .attp <teks>\n│ • .getexif\n│ • .stiker (caption|reply media)\n│ • .stiker <url>\n│ • .stikergif (caption|reply media)\n│ • .stikergif <url>\n│ • .stikerline <url> (Limit)\n│ • .toimg (reply)\n│ • .toimg2 (reply)\n│ • .ttp <teks>\n│ • .wm <packname>|<author>\n╰────\n\n╭─「 Kerang Ajaib 」\n│ • apakah <teks>?\n│ • .apakah <teks>?\n│ • .howgay siapa?\n│ • .howpintar siapa?\n│ • .howcantik siapa?\n│ • .howganteng siapa?\n│ • .howgabut siapa?\n│ • .howgila siapa?\n│ • .howlesbi siapa?\n│ • .howstress siapa?\n│ • .howbucin siapa?\n│ • .howjones siapa?\n│ • .howsadboy siapa?\n│ • kapan <text>?\n│ • kapankah <text>?\n│ • .kapan <text>?\n│ • .kapankah <text>?\n│ • .kerang <teks>\n│ • .kerangajaib <teks>\n╰────\n\n╭─「 Quotes 」\n│ • .bucin\n│ • .dare\n│ • .truth\n╰────\n\n╭─「 Admin 」\n╰────\n\n╭─「 Group 」\n│ • .enable <option>\n│ • .disable <option>\n│ • .infogrup\n│ • .leavegc\n│ • .leavegcall\n│ • .leavegroup\n│ • .linkgroup\n│ • .pengumuman [teks]\n│ • .announce [teks]\n│ • .hidetag [teks]\n│ • .group *open / close*\n│ • .tagall\n╰────\n\n╭─「 Premium 」\n│ • .join <chat.whatsapp.com>\n╰────\n\n╭─「 Internet 」\n│ • .waifu\n│ • .google <pencarian>\n│ • .googlef <pencarian>\n│ • .gimage <query>\n│ • .image <query>\n│ • .pinterest <keyword>\n│ • .fetch <url>\n│ • .get <url>\n│ • .kbbi <teks>\n│ • .lirik <Apa>\n│ • .wikipedia <apa>\n╰────\n\n╭─「 Anonymous Chat 」\n│ • .start\n│ • .leave\n│ • .next\n╰────\n\n╭─「 MagerNulis & Logo 」\n│ • .tahta <teks> (Limit)\n│ • .nulis <teks>\n╰────\n\n╭─「 Downloader 」\n│ • .facebook <url>\n│ • .gitclone <url> (Limit)\n│ • .ig <url>\n│ • .igstalk <username>\n│ • .mediafire <url> (Limit)\n│ • .tiktok <url>\n│ • .wallpaper <query>\n│ • .wallpaper2 <query>\n│ • .play <pencarian>\n│ • .play2 <pencarian>\n│ • .ytmp3 <url> <without message>\n│ • .yta <url> <without message>\n│ • .ytmp4 <url> <without message>\n│ • .ytv <url> <without message>\n│ • .yt <url> <without message>\n╰────\n\n╭─「 Tools 」\n│ • .gimage <query>\n│ • .image <query>\n│ • .nulis2 <teks>\n│ • .ping\n│ • .speed\n│ • .del\n│ • .delete\n│ • .halah <teks>\n│ • .hilih <teks>\n│ • .huluh <teks>\n│ • .heleh <teks>\n│ • .holoh <teks>\n│ • .qr <teks>\n│ • .qrcode <teks>\n│ • .readmore <teks>|<teks>\n│ • .spoiler <teks>|<teks>\n│ • .readviewonce\n│ • .style <text>\n│ • .tts <lang> <teks>\n│ • .yts <pencarian>\n│ • .ytsearch <pencarian>\n╰────\n\n╭─「 Fun 」\n│ • apakah <teks>?\n│ • .apakah <teks>?\n│ • .namaninja <teks>\n│ • .purba <teks>\n│ • .howgay siapa?\n│ • .howpintar siapa?\n│ • .howcantik siapa?\n│ • .howganteng siapa?\n│ • .howgabut siapa?\n│ • .howgila siapa?\n│ • .howlesbi siapa?\n│ • .howstress siapa?\n│ • .howbucin siapa?\n│ • .howjones siapa?\n│ • .howsadboy siapa?\n│ • .jadian\n│ • kapan <text>?\n│ • kapankah <text>?\n│ • .kapan <text>?\n│ • .kapankah <text>?\n│ • .kerang <teks>\n│ • .kerangajaib <teks>\n│ • .dare\n│ • .truth\n╰────\n\n╭─「 Database 」\n│ • .delcmd <teks>\n│ • .listcmd\n│ • .unlockcmd\n│ • .lockcmd\n│ • .setcmd <teks>\n│ • .addmsg <teks>\n│ • .delmsg <teks>\n│ • .listmsg\n╰────\n\n╭─「 Voting 」\n╰────\n\n╭─「 Absen 」\n╰────\n\n╭─「 Al Qur'an 」\n│ • .salat <daerah>\n╰────\n\n╭─「 Jadi Bot 」\n╰────\n\n╭─「 Owner 」\n│ • .broadcast <teks>\n│ • .bc <teks>\n│ • .broadcastchats <teks>\n│ • .bcchats <teks>\n│ • .broadcastgroup <teks>\n│ • .bcgc <teks>\n│ • .enable <option>\n│ • .disable <option>\n│ • .oadd @user\n│ • .o+ @user\n│ • .banchat\n│ • .ban @user\n│ • .getplugin <name file>\n│ • .getfile <name file>\n│ • .okick @user\n│ • .o- @user\n│ • .saveplugin <name file>\n│ • .savefile <name file>\n│ • .unbanchat\n│ • .unban @user\n╰────\n\n╭─「 Host 」\n╰────\n\n╭─「 Advanced 」\n│ • >\n│ • =>\n╰────\n\n╭─「 Info 」\n│ • .owner\n│ • .creator\n│ • .donasi\n│ • .groups\n│ • .grouplist\n│ • .ping\n│ • .speed\n╰────\n\n╭─「 No Category 」\n╰────\n\n╭─「 maker 」\n│ • .lolice\n╰────\n\n╭─「 audio 」\n│ • .tomp3 (reply)\n│ • .tovn (reply)\n╰────\n\n\n*games-wabot* | 2.2.0\n```Customizable WhatsApp Bot```"
+              }
+            },
+            "contextInfo": {
+              "stanzaId": "B742E64CB65B01C6198F36361B3CE904",
+              "participant": "60102810046@s.whatsapp.net",
+              "quotedMessage": {
+                "extendedTextMessage": {
+                  "text": ".menu",
+                  "previewType": "NONE",
+                  "inviteLinkGroupTypeV2": "DEFAULT"
+                }
+              }
+            },
+            "hydratedTemplate": {
+              "documentMessage": {
+                "url": "https://mmg.whatsapp.net/d/f/ApKALXGJJB-4G3vRN4Nhs1kIrYD4ooWidT0UlnPV7ABP.enc",
+                "mimetype": "application/pdf",
+                "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+                "fileLength": "0",
+                "mediaKey": "Hawb2u822o51ZtSNHHadyLF4ZU4/5Zg+sfwG8uqz3Y0=",
+                "fileName": "file",
+                "fileEncSha256": "t6wSa6ACL7lOeQ2NgF8MxJgaiVad+B2zKvk6nD6dQxY=",
+                "directPath": "/v/t62.7119-24/20118858_111086305181769_4368996192729223746_n.enc?ccb=11-4&oh=01_AdRQJ8B-ZCtRnh0XEhhmf-Yqv33d35LPaK7sGs_3DrIapA&oe=63BF87EF",
+                "mediaKeyTimestamp": "1670904862",
+                "caption": "╭─「 Aiman 🤖」\n│ 👋🏻 Hai, ꋬ꒐ꂵꋬꋊ メ!\n│\n│ 🧱 Limit : *100 Limit*\n│ 🦸🏼‍♂️ Role : *Beginner*\n│ 🔼 Level : *0 (0 / 69)*\n│ 💫 Total XP : 0 ✨\n│ \n│ 📅 Tarikh: *Selasa, 13 Desember 2022*\n│ 🕰️ Waktu: *04.14.21*\n│\n│ 📈 Uptime: *00:01:56 (00:01:56)*\n│ 📊 Database: 0 of 2\n╰────\n‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎\n╭─「 Main 」\n│ • .afk [alasan]\n│ • .jadian\n│ • .menu\n│ • .help\n│ • .?\n╰────\n\n╭─「 Game 」\n│ • .caklontong\n│ • .family100\n│ • .math <mode>\n│ • .siapakahaku\n│ • .tebakgambar\n│ • .tebakkata\n│ • .tictactoe [custom room name]\n│ • .ttt [custom room name]\n╰────\n\n╭─「 RPG Games 」\n│ • .adventure\n│ • .petualang\n│ • .berpetualang\n│ • .mulung\n│ • .judi [jumlah]\n│ • .heal\n│ • .inventory\n│ • .inv\n│ • .monthly\n│ • .open [crate] [count]\n│ • .gacha [crate] [count]\n│ • .buy [item] [count]\n│ • .sell [item] [count]\n│ • .transfer [type] [jumlah] [@tag]\n│ • .tf [type] [jumlah] [@tag]\n╰────\n\n╭─「 Exp & Limit 」\n│ • .levelup\n│ • .daily\n│ • .claim\n│ • .leaderboard [jumlah user]\n│ • .lb [jumlah user]\n╰────\n\n╭─「 Sticker 」\n│ • .attp <teks>\n│ • .getexif\n│ • .stiker (caption|reply media)\n│ • .stiker <url>\n│ • .stikergif (caption|reply media)\n│ • .stikergif <url>\n│ • .stikerline <url> (Limit)\n│ • .toimg (reply)\n│ • .toimg2 (reply)\n│ • .ttp <teks>\n│ • .wm <packname>|<author>\n╰────\n\n╭─「 Kerang Ajaib 」\n│ • apakah <teks>?\n│ • .apakah <teks>?\n│ • .howgay siapa?\n│ • .howpintar siapa?\n│ • .howcantik siapa?\n│ • .howganteng siapa?\n│ • .howgabut siapa?\n│ • .howgila siapa?\n│ • .howlesbi siapa?\n│ • .howstress siapa?\n│ • .howbucin siapa?\n│ • .howjones siapa?\n│ • .howsadboy siapa?\n│ • kapan <text>?\n│ • kapankah <text>?\n│ • .kapan <text>?\n│ • .kapankah <text>?\n│ • .kerang <teks>\n│ • .kerangajaib <teks>\n╰────\n\n╭─「 Quotes 」\n│ • .bucin\n│ • .dare\n│ • .truth\n╰────\n\n╭─「 Admin 」\n╰────\n\n╭─「 Group 」\n│ • .enable <option>\n│ • .disable <option>\n│ • .infogrup\n│ • .leavegc\n│ • .leavegcall\n│ • .leavegroup\n│ • .linkgroup\n│ • .pengumuman [teks]\n│ • .announce [teks]\n│ • .hidetag [teks]\n│ • .group *open / close*\n│ • .tagall\n╰────\n\n╭─「 Premium 」\n│ • .join <chat.whatsapp.com>\n╰────\n\n╭─「 Internet 」\n│ • .waifu\n│ • .google <pencarian>\n│ • .googlef <pencarian>\n│ • .gimage <query>\n│ • .image <query>\n│ • .pinterest <keyword>\n│ • .fetch <url>\n│ • .get <url>\n│ • .kbbi <teks>\n│ • .lirik <Apa>\n│ • .wikipedia <apa>\n╰────\n\n╭─「 Anonymous Chat 」\n│ • .start\n│ • .leave\n│ • .next\n╰────\n\n╭─「 MagerNulis & Logo 」\n│ • .tahta <teks> (Limit)\n│ • .nulis <teks>\n╰────\n\n╭─「 Downloader 」\n│ • .facebook <url>\n│ • .gitclone <url> (Limit)\n│ • .ig <url>\n│ • .igstalk <username>\n│ • .mediafire <url> (Limit)\n│ • .tiktok <url>\n│ • .wallpaper <query>\n│ • .wallpaper2 <query>\n│ • .play <pencarian>\n│ • .play2 <pencarian>\n│ • .ytmp3 <url> <without message>\n│ • .yta <url> <without message>\n│ • .ytmp4 <url> <without message>\n│ • .ytv <url> <without message>\n│ • .yt <url> <without message>\n╰────\n\n╭─「 Tools 」\n│ • .gimage <query>\n│ • .image <query>\n│ • .nulis2 <teks>\n│ • .ping\n│ • .speed\n│ • .del\n│ • .delete\n│ • .halah <teks>\n│ • .hilih <teks>\n│ • .huluh <teks>\n│ • .heleh <teks>\n│ • .holoh <teks>\n│ • .qr <teks>\n│ • .qrcode <teks>\n│ • .readmore <teks>|<teks>\n│ • .spoiler <teks>|<teks>\n│ • .readviewonce\n│ • .style <text>\n│ • .tts <lang> <teks>\n│ • .yts <pencarian>\n│ • .ytsearch <pencarian>\n╰────\n\n╭─「 Fun 」\n│ • apakah <teks>?\n│ • .apakah <teks>?\n│ • .namaninja <teks>\n│ • .purba <teks>\n│ • .howgay siapa?\n│ • .howpintar siapa?\n│ • .howcantik siapa?\n│ • .howganteng siapa?\n│ • .howgabut siapa?\n│ • .howgila siapa?\n│ • .howlesbi siapa?\n│ • .howstress siapa?\n│ • .howbucin siapa?\n│ • .howjones siapa?\n│ • .howsadboy siapa?\n│ • .jadian\n│ • kapan <text>?\n│ • kapankah <text>?\n│ • .kapan <text>?\n│ • .kapankah <text>?\n│ • .kerang <teks>\n│ • .kerangajaib <teks>\n│ • .dare\n│ • .truth\n╰────\n\n╭─「 Database 」\n│ • .delcmd <teks>\n│ • .listcmd\n│ • .unlockcmd\n│ • .lockcmd\n│ • .setcmd <teks>\n│ • .addmsg <teks>\n│ • .delmsg <teks>\n│ • .listmsg\n╰────\n\n╭─「 Voting 」\n╰────\n\n╭─「 Absen 」\n╰────\n\n╭─「 Al Qur'an 」\n│ • .salat <daerah>\n╰────\n\n╭─「 Jadi Bot 」\n╰────\n\n╭─「 Owner 」\n│ • .broadcast <teks>\n│ • .bc <teks>\n│ • .broadcastchats <teks>\n│ • .bcchats <teks>\n│ • .broadcastgroup <teks>\n│ • .bcgc <teks>\n│ • .enable <option>\n│ • .disable <option>\n│ • .oadd @user\n│ • .o+ @user\n│ • .banchat\n│ • .ban @user\n│ • .getplugin <name file>\n│ • .getfile <name file>\n│ • .okick @user\n│ • .o- @user\n│ • .saveplugin <name file>\n│ • .savefile <name file>\n│ • .unbanchat\n│ • .unban @user\n╰────\n\n╭─「 Host 」\n╰────\n\n╭─「 Advanced 」\n│ • >\n│ • =>\n╰────\n\n╭─「 Info 」\n│ • .owner\n│ • .creator\n│ • .donasi\n│ • .groups\n│ • .grouplist\n│ • .ping\n│ • .speed\n╰────\n\n╭─「 No Category 」\n╰────\n\n╭─「 maker 」\n│ • .lolice\n╰────\n\n╭─「 audio 」\n│ • .tomp3 (reply)\n│ • .tovn (reply)\n╰────\n\n\n*games-wabot* | 2.2.0\n```Customizable WhatsApp Bot```"
+              },
+              "hydratedContentText": "╭─「 Aiman 🤖」\n│ 👋🏻 Hai, ꋬ꒐ꂵꋬꋊ メ!\n│\n│ 🧱 Limit : *100 Limit*\n│ 🦸🏼‍♂️ Role : *Beginner*\n│ 🔼 Level : *0 (0 / 69)*\n│ 💫 Total XP : 0 ✨\n│ \n│ 📅 Tarikh: *Selasa, 13 Desember 2022*\n│ 🕰️ Waktu: *04.14.21*\n│\n│ 📈 Uptime: *00:01:56 (00:01:56)*\n│ 📊 Database: 0 of 2\n╰────\n‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎\n╭─「 Main 」\n│ • .afk [alasan]\n│ • .jadian\n│ • .menu\n│ • .help\n│ • .?\n╰────\n\n╭─「 Game 」\n│ • .caklontong\n│ • .family100\n│ • .math <mode>\n│ • .siapakahaku\n│ • .tebakgambar\n│ • .tebakkata\n│ • .tictactoe [custom room name]\n│ • .ttt [custom room name]\n╰────\n\n╭─「 RPG Games 」\n│ • .adventure\n│ • .petualang\n│ • .berpetualang\n│ • .mulung\n│ • .judi [jumlah]\n│ • .heal\n│ • .inventory\n│ • .inv\n│ • .monthly\n│ • .open [crate] [count]\n│ • .gacha [crate] [count]\n│ • .buy [item] [count]\n│ • .sell [item] [count]\n│ • .transfer [type] [jumlah] [@tag]\n│ • .tf [type] [jumlah] [@tag]\n╰────\n\n╭─「 Exp & Limit 」\n│ • .levelup\n│ • .daily\n│ • .claim\n│ • .leaderboard [jumlah user]\n│ • .lb [jumlah user]\n╰────\n\n╭─「 Sticker 」\n│ • .attp <teks>\n│ • .getexif\n│ • .stiker (caption|reply media)\n│ • .stiker <url>\n│ • .stikergif (caption|reply media)\n│ • .stikergif <url>\n│ • .stikerline <url> (Limit)\n│ • .toimg (reply)\n│ • .toimg2 (reply)\n│ • .ttp <teks>\n│ • .wm <packname>|<author>\n╰────\n\n╭─「 Kerang Ajaib 」\n│ • apakah <teks>?\n│ • .apakah <teks>?\n│ • .howgay siapa?\n│ • .howpintar siapa?\n│ • .howcantik siapa?\n│ • .howganteng siapa?\n│ • .howgabut siapa?\n│ • .howgila siapa?\n│ • .howlesbi siapa?\n│ • .howstress siapa?\n│ • .howbucin siapa?\n│ • .howjones siapa?\n│ • .howsadboy siapa?\n│ • kapan <text>?\n│ • kapankah <text>?\n│ • .kapan <text>?\n│ • .kapankah <text>?\n│ • .kerang <teks>\n│ • .kerangajaib <teks>\n╰────\n\n╭─「 Quotes 」\n│ • .bucin\n│ • .dare\n│ • .truth\n╰────\n\n╭─「 Admin 」\n╰────\n\n╭─「 Group 」\n│ • .enable <option>\n│ • .disable <option>\n│ • .infogrup\n│ • .leavegc\n│ • .leavegcall\n│ • .leavegroup\n│ • .linkgroup\n│ • .pengumuman [teks]\n│ • .announce [teks]\n│ • .hidetag [teks]\n│ • .group *open / close*\n│ • .tagall\n╰────\n\n╭─「 Premium 」\n│ • .join <chat.whatsapp.com>\n╰────\n\n╭─「 Internet 」\n│ • .waifu\n│ • .google <pencarian>\n│ • .googlef <pencarian>\n│ • .gimage <query>\n│ • .image <query>\n│ • .pinterest <keyword>\n│ • .fetch <url>\n│ • .get <url>\n│ • .kbbi <teks>\n│ • .lirik <Apa>\n│ • .wikipedia <apa>\n╰────\n\n╭─「 Anonymous Chat 」\n│ • .start\n│ • .leave\n│ • .next\n╰────\n\n╭─「 MagerNulis & Logo 」\n│ • .tahta <teks> (Limit)\n│ • .nulis <teks>\n╰────\n\n╭─「 Downloader 」\n│ • .facebook <url>\n│ • .gitclone <url> (Limit)\n│ • .ig <url>\n│ • .igstalk <username>\n│ • .mediafire <url> (Limit)\n│ • .tiktok <url>\n│ • .wallpaper <query>\n│ • .wallpaper2 <query>\n│ • .play <pencarian>\n│ • .play2 <pencarian>\n│ • .ytmp3 <url> <without message>\n│ • .yta <url> <without message>\n│ • .ytmp4 <url> <without message>\n│ • .ytv <url> <without message>\n│ • .yt <url> <without message>\n╰────\n\n╭─「 Tools 」\n│ • .gimage <query>\n│ • .image <query>\n│ • .nulis2 <teks>\n│ • .ping\n│ • .speed\n│ • .del\n│ • .delete\n│ • .halah <teks>\n│ • .hilih <teks>\n│ • .huluh <teks>\n│ • .heleh <teks>\n│ • .holoh <teks>\n│ • .qr <teks>\n│ • .qrcode <teks>\n│ • .readmore <teks>|<teks>\n│ • .spoiler <teks>|<teks>\n│ • .readviewonce\n│ • .style <text>\n│ • .tts <lang> <teks>\n│ • .yts <pencarian>\n│ • .ytsearch <pencarian>\n╰────\n\n╭─「 Fun 」\n│ • apakah <teks>?\n│ • .apakah <teks>?\n│ • .namaninja <teks>\n│ • .purba <teks>\n│ • .howgay siapa?\n│ • .howpintar siapa?\n│ • .howcantik siapa?\n│ • .howganteng siapa?\n│ • .howgabut siapa?\n│ • .howgila siapa?\n│ • .howlesbi siapa?\n│ • .howstress siapa?\n│ • .howbucin siapa?\n│ • .howjones siapa?\n│ • .howsadboy siapa?\n│ • .jadian\n│ • kapan <text>?\n│ • kapankah <text>?\n│ • .kapan <text>?\n│ • .kapankah <text>?\n│ • .kerang <teks>\n│ • .kerangajaib <teks>\n│ • .dare\n│ • .truth\n╰────\n\n╭─「 Database 」\n│ • .delcmd <teks>\n│ • .listcmd\n│ • .unlockcmd\n│ • .lockcmd\n│ • .setcmd <teks>\n│ • .addmsg <teks>\n│ • .delmsg <teks>\n│ • .listmsg\n╰────\n\n╭─「 Voting 」\n╰────\n\n╭─「 Absen 」\n╰────\n\n╭─「 Al Qur'an 」\n│ • .salat <daerah>\n╰────\n\n╭─「 Jadi Bot 」\n╰────\n\n╭─「 Owner 」\n│ • .broadcast <teks>\n│ • .bc <teks>\n│ • .broadcastchats <teks>\n│ • .bcchats <teks>\n│ • .broadcastgroup <teks>\n│ • .bcgc <teks>\n│ • .enable <option>\n│ • .disable <option>\n│ • .oadd @user\n│ • .o+ @user\n│ • .banchat\n│ • .ban @user\n│ • .getplugin <name file>\n│ • .getfile <name file>\n│ • .okick @user\n│ • .o- @user\n│ • .saveplugin <name file>\n│ • .savefile <name file>\n│ • .unbanchat\n│ • .unban @user\n╰────\n\n╭─「 Host 」\n╰────\n\n╭─「 Advanced 」\n│ • >\n│ • =>\n╰────\n\n╭─「 Info 」\n│ • .owner\n│ • .creator\n│ • .donasi\n│ • .groups\n│ • .grouplist\n│ • .ping\n│ • .speed\n╰────\n\n╭─「 No Category 」\n╰────\n\n╭─「 maker 」\n│ • .lolice\n╰────\n\n╭─「 audio 」\n│ • .tomp3 (reply)\n│ • .tovn (reply)\n╰────\n\n\n*games-wabot* | 2.2.0\n```Customizable WhatsApp Bot```",
+              "hydratedFooterText": "Bot",
+              "hydratedButtons": [
+                {
+                  "urlButton": {
+                    "displayText": "Github",
+                    "url": "https://github.com/ai-man-123"
+                  },
+                  "index": 1
+                },
+                {
+                  "quickReplyButton": {
+                    "displayText": "Speed",
+                    "id": "/ping"
+                  },
+                  "index": 2
+                },
+                {
+                  "quickReplyButton": {
+                    "displayText": "Owner",
+                    "id": "/owner"
+                  },
+                  "index": 3
+                }
+              ]
+            }
+          }
+        },
+        "messageTimestamp": "1670904862",
+        "status": "DELIVERY_ACK"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": false,
+          "id": "387CC39A98DDC4FC7C29A05B5D0885B3"
+        },
+        "message": {
+          "extendedTextMessage": {
+            "text": ".owner",
+            "previewType": "NONE",
+            "inviteLinkGroupTypeV2": "DEFAULT"
+          }
+        },
+        "messageTimestamp": "1670904870",
+        "status": "READ",
+        "pushName": "ꋬ꒐ꂵꋬꋊ メ"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": true,
+          "id": "BAE5999A141FA761"
+        },
+        "message": {
+          "contactMessage": {
+            "displayName": "BG",
+            "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;BG;;;\nFN:BG\nTEL;type=CELL;type=VOICE;waid=60147675746:+60 14-767 5746\nEND:VCARD",
+            "contextInfo": {
+              "stanzaId": "387CC39A98DDC4FC7C29A05B5D0885B3",
+              "participant": "60102810046@s.whatsapp.net",
+              "quotedMessage": {
+                "extendedTextMessage": {
+                  "text": ".owner",
+                  "previewType": "NONE",
+                  "inviteLinkGroupTypeV2": "DEFAULT"
+                }
+              }
+            }
+          }
+        },
+        "messageTimestamp": "1670904870",
+        "status": "READ"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": false,
+          "id": "02309327E3C7F2F4BE5B34AC9AB46EE4"
+        },
+        "message": {
+          "extendedTextMessage": {
+            "text": ".ping",
+            "previewType": "NONE",
+            "inviteLinkGroupTypeV2": "DEFAULT"
+          }
+        },
+        "messageTimestamp": "1670904885",
+        "status": "READ",
+        "pushName": "ꋬ꒐ꂵꋬꋊ メ"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": true,
+          "id": "BAE56B34EEE750C6"
+        },
+        "message": {
+          "extendedTextMessage": {
+            "text": "_Testing speed..._",
+            "contextInfo": {
+              "stanzaId": "02309327E3C7F2F4BE5B34AC9AB46EE4",
+              "participant": "60102810046@s.whatsapp.net",
+              "quotedMessage": {
+                "extendedTextMessage": {
+                  "text": ".ping",
+                  "previewType": "NONE",
+                  "inviteLinkGroupTypeV2": "DEFAULT"
+                }
+              }
+            }
+          }
+        },
+        "messageTimestamp": "1670904885",
+        "status": "READ"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": true,
+          "id": "BAE54F50BFC47A4B"
+        },
+        "message": {
+          "extendedTextMessage": {
+            "text": "Merespon dalam 196.58662104606628 millidetik\n\n💬 Status :\n- *0* Group Chats\n- *0* Groups Joined\n- *0* Groups Left\n- *17* Personal Chats\n- *17* Total Chats\n\n💻 *Server Info* :\nRAM: 7.47 GB / 7.77 GB\n\n_NodeJS Memory Usage_\n```rss         : 101.13 MB\nheapTotal   : 61.11 MB\nheapUsed    : 56.11 MB\nexternal    : 34.24 MB\narrayBuffers: 18.79 MB```\n\n_Total CPU Usage_\nDO-Regular (1996 MHZ)\n- *user* : 17.24%\n- *nice* : 0.01%\n- *sys*  : 6.48%\n- *idle* : 76.27%\n- *irq*  : 0.00%\n\n_CPU Core(s) Usage (4 Core CPU)_\n1. DO-Regular (1996 MHZ)\n- *user* : 15.52%\n- *nice* : 0.00%\n- *sys*  : 6.53%\n- *idle* : 77.94%\n- *irq*  : 0.00%\n\n2. DO-Regular (1996 MHZ)\n- *user* : 15.59%\n- *nice* : 0.01%\n- *sys*  : 6.54%\n- *idle* : 77.86%\n- *irq*  : 0.00%\n\n3. DO-Regular (1996 MHZ)\n- *user* : 15.37%\n- *nice* : 0.01%\n- *sys*  : 6.59%\n- *idle* : 78.04%\n- *irq*  : 0.00%\n\n4. DO-Regular (1996 MHZ)\n- *user* : 22.48%\n- *nice* : 0.00%\n- *sys*  : 6.28%\n- *idle* : 71.24%\n- *irq*  : 0.00%",
+            "contextInfo": {
+              "stanzaId": "02309327E3C7F2F4BE5B34AC9AB46EE4",
+              "participant": "60102810046@s.whatsapp.net",
+              "quotedMessage": {
+                "extendedTextMessage": {
+                  "text": ".ping",
+                  "previewType": "NONE",
+                  "inviteLinkGroupTypeV2": "DEFAULT"
+                }
+              }
+            }
+          }
+        },
+        "messageTimestamp": "1670904885",
+        "status": "READ"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": false,
+          "id": "9E0546C4881CAE27AAA00F47F08ABDA5"
+        },
+        "message": {
+          "extendedTextMessage": {
+            "text": "$ ls",
+            "previewType": "NONE",
+            "inviteLinkGroupTypeV2": "DEFAULT"
+          }
+        },
+        "messageTimestamp": "1670904887",
+        "status": "READ",
+        "pushName": "ꋬ꒐ꂵꋬꋊ メ"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": true,
+          "id": "BAE53CB132144F09"
+        },
+        "message": {
+          "extendedTextMessage": {
+            "text": "Executing...",
+            "contextInfo": {
+              "stanzaId": "9E0546C4881CAE27AAA00F47F08ABDA5",
+              "participant": "60102810046@s.whatsapp.net",
+              "quotedMessage": {
+                "extendedTextMessage": {
+                  "text": "$ ls",
+                  "previewType": "NONE",
+                  "inviteLinkGroupTypeV2": "DEFAULT"
+                }
+              }
+            }
+          }
+        },
+        "messageTimestamp": "1670904887",
+        "status": "READ"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": true,
+          "id": "BAE51AF8BAF571E9"
+        },
+        "message": {
+          "extendedTextMessage": {
+            "text": "Dockerfile\nLICENSE\nProcfile\nREADME.md\napp.json\nconfig.js\ndata.store.json\ndatabase.json\nhandler.js\nindex.js\nlib\nmain.js\nnode_modules\npackage-lock.json\npackage.json\nplugins\nserver.js\nsessions\nsrc\ntest.js\ntmp\nviews\n",
+            "contextInfo": {
+              "stanzaId": "9E0546C4881CAE27AAA00F47F08ABDA5",
+              "participant": "60102810046@s.whatsapp.net",
+              "quotedMessage": {
+                "extendedTextMessage": {
+                  "text": "$ ls",
+                  "previewType": "NONE",
+                  "inviteLinkGroupTypeV2": "DEFAULT"
+                }
+              }
+            }
+          }
+        },
+        "messageTimestamp": "1670904889",
+        "status": "READ"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": false,
+          "id": "51C59F499603484406627E40944B9D17"
+        },
+        "message": {
+          "extendedTextMessage": {
+            "text": ".play 30 detik",
+            "previewType": "NONE",
+            "inviteLinkGroupTypeV2": "DEFAULT"
+          }
+        },
+        "messageTimestamp": "1670904896",
+        "status": "READ",
+        "pushName": "ꋬ꒐ꂵꋬꋊ メ"
+      },
+      {
+        "key": {
+          "remoteJid": "60102810046@s.whatsapp.net",
+          "fromMe": true,
+          "id": "BAE52AE67E9F548C"
+        },
+        "message": {
+          "templateMessage": {
+            "fourRowTemplate": {
+              "imageMessage": {
+                "url": "https://mmg.whatsapp.net/d/f/Aq1w-UAdyBbffrfcJDMVY_QwYnjIURXWcsMzw0CEGjne.enc",
+                "mimetype": "image/jpeg",
+                "caption": "📌 *Title:* STORY WA 30 DETIK TERBARU, STORY WA TERBARU || Alfi Story || #story\n🔗 *Url:* https://www.youtube.com/watch?v=VYjeTkpaXPU\n🖹 *Description:* tag story wa, story wa kata kata keren, story wa kata kata bijak, story wa terbaru, story wa 30 detik, qoutes keren, qoutes literasi, ...\n⏲️ *Published:* 56 minutes ago\n⌚ *Duration:* 12 seconds\n👁️ *Views:* 106 views",
+                "fileSha256": "AHW6a9Akrs+XirkswbHndxWETkaTdi7u33GG98o3n8E=",
+                "fileLength": "35787",
+                "mediaKey": "9cZoQFr4xFY89wK5oC247X28gTENyfXGEWN5uhV/a5M=",
+                "fileEncSha256": "oQpzdLSZ+I5QkpClt3pjphrhAk8gPkFTtHIA/Q2lyRQ=",
+                "directPath": "/v/t62.7118-24/34578307_830144528210832_6496988847593580323_n.enc?ccb=11-4&oh=01_AdQNwybc-mSuGi5PtlzxvdL9BP9sXUCZlpapT027BLfhcg&oe=63BF7A83",
+                "mediaKeyTimestamp": "1670904898",
+                "jpegThumbnail": "/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAASACADASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAMGBQQH/8QAJBAAAgIBAwQCAwAAAAAAAAAAAQIAAxEEBRIGEyExQXEiUdH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgH/xAAYEQEBAQEBAAAAAAAAAAAAAAAAMQECEf/aAAwDAQACEQMRAD8AmjqKgcGxc/csuj7UfabGDAgXHyfoTzd35OWOck5MYt7rXxrYlBnKt/IPFp1pu1baSunS31WFLAX4kNg+RiRq3O7GyxvBi7bO8xZUCDGWVfWf2BEyaqQH2Z11gDSUsB+XePn59CEI0ytHfa0r3rjWioDUhwox8TDPswhHLe3/2Q=="
+              }
+            },
+            "contextInfo": {
+              "stanzaId": "51C59F499603484406627E40944B9D17",
+              "participant": "60102810046@s.whatsapp.net",
+              "quotedMessage": {
+                "extendedTextMessage": {
+                  "text": ".play 30 detik",
+                  "previewType": "NONE",
+                  "inviteLinkGroupTypeV2": "DEFAULT"
+                }
+              }
+            },
+            "hydratedTemplate": {
+              "imageMessage": {
+                "url": "https://mmg.whatsapp.net/d/f/Aq1w-UAdyBbffrfcJDMVY_QwYnjIURXWcsMzw0CEGjne.enc",
+                "mimetype": "image/jpeg",
+                "caption": "📌 *Title:* STORY WA 30 DETIK TERBARU, STORY WA TERBARU || Alfi Story || #story\n🔗 *Url:* https://www.youtube.com/watch?v=VYjeTkpaXPU\n🖹 *Description:* tag story wa, story wa kata kata keren, story wa kata kata bijak, story wa terbaru, story wa 30 detik, qoutes keren, qoutes literasi, ...\n⏲️ *Published:* 56 minutes ago\n⌚ *Duration:* 12 seconds\n👁️ *Views:* 106 views",
+                "fileSha256": "AHW6a9Akrs+XirkswbHndxWETkaTdi7u33GG98o3n8E=",
+                "fileLength": "35787",
+                "mediaKey": "9cZoQFr4xFY89wK5oC247X28gTENyfXGEWN5uhV/a5M=",
+                "fileEncSha256": "oQpzdLSZ+I5QkpClt3pjphrhAk8gPkFTtHIA/Q2lyRQ=",
+                "directPath": "/v/t62.7118-24/34578307_830144528210832_6496988847593580323_n.enc?ccb=11-4&oh=01_AdQNwybc-mSuGi5PtlzxvdL9BP9sXUCZlpapT027BLfhcg&oe=63BF7A83",
+                "mediaKeyTimestamp": "1670904898",
+                "jpegThumbnail": "/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAASACADASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAMGBQQH/8QAJBAAAgIBAwQCAwAAAAAAAAAAAQIAAxEEBRIGEyExQXEiUdH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgH/xAAYEQEBAQEBAAAAAAAAAAAAAAAAMQECEf/aAAwDAQACEQMRAD8AmjqKgcGxc/csuj7UfabGDAgXHyfoTzd35OWOck5MYt7rXxrYlBnKt/IPFp1pu1baSunS31WFLAX4kNg+RiRq3O7GyxvBi7bO8xZUCDGWVfWf2BEyaqQH2Z11gDSUsB+XePn59CEI0ytHfa0r3rjWioDUhwox8TDPswhHLe3/2Q=="
+              },
+              "hydratedContentText": "📌 *Title:* STORY WA 30 DETIK TERBARU, STORY WA TERBARU || Alfi Story || #story\n🔗 *Url:* https://www.youtube.com/watch?v=VYjeTkpaXPU\n🖹 *Description:* tag story wa, story wa kata kata keren, story wa kata kata bijak, story wa terbaru, story wa 30 detik, qoutes keren, qoutes literasi, ...\n⏲️ *Published:* 56 minutes ago\n⌚ *Duration:* 12 seconds\n👁️ *Views:* 106 views",
+              "hydratedFooterText": "Bot",
+              "hydratedButtons": [
+                {
+                  "urlButton": {
+                    "displayText": "📺Go To Youtube!",
+                    "url": "https://www.youtube.com/watch?v=VYjeTkpaXPU"
+                  },
+                  "index": 1
+                },
+                {
+                  "quickReplyButton": {
+                    "displayText": "Audio 🎧",
+                    "id": ".yta https://www.youtube.com/watch?v=VYjeTkpaXPU yes"
+                  },
+                  "index": 2
+                },
+                {
+                  "quickReplyButton": {
+                    "displayText": "Video 🎥",
+                    "id": ".ytv https://www.youtube.com/watch?v=VYjeTkpaXPU yes"
+                  },
+                  "index": 3
+                },
+                {
+                  "quickReplyButton": {
+                    "displayText": "Youtube Search🔎",
+                    "id": ".yts https://www.youtube.com/watch?v=VYjeTkpaXPU"
+                  },
+                  "index": 4
+                }
+              ]
+            }
+          }
+        },
+        "messageTimestamp": "1670904898",
+        "status": "DELIVERY_ACK"
       }
-    },
-    "appStateVersions": {
-      "critical_block": null,
-      "regular": null,
-      "critical_unblock_low": null,
-      "regular_low": null
-    }
+    ],
+    "60189830350@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "60189830350@s.whatsapp.net",
+          "fromMe": true,
+          "id": "FBCB702EB2C02A6B2188BB19A9D3A869"
+        },
+        "messageTimestamp": "1670902261",
+        "messageStubType": "E2E_ENCRYPTED"
+      },
+      {
+        "key": {
+          "remoteJid": "60189830350@s.whatsapp.net",
+          "fromMe": false,
+          "id": "292708E0DBC756D3D5AA086370C15DBC"
+        },
+        "message": {
+          "conversation": "P"
+        },
+        "messageTimestamp": "1670902261",
+        "ephemeralOutOfSync": false
+      },
+      {
+        "key": {
+          "remoteJid": "60189830350@s.whatsapp.net",
+          "fromMe": true,
+          "id": "88E32D29972883BF0D3652F382C8130E"
+        },
+        "message": {
+          "conversation": "ade ii"
+        },
+        "messageTimestamp": "1670902272",
+        "status": "READ",
+        "messageC2STimestamp": "1670902273",
+        "userReceipt": [
+          {
+            "userJid": "60189830350@s.whatsapp.net",
+            "receiptTimestamp": "1670902274",
+            "readTimestamp": "1670902276",
+            "playedTimestamp": "0"
+          }
+        ]
+      },
+      {
+        "key": {
+          "remoteJid": "60189830350@s.whatsapp.net",
+          "fromMe": false,
+          "id": "B369B96A03374AF950C642C753532E2F"
+        },
+        "message": {
+          "conversation": "Ok"
+        },
+        "messageTimestamp": "1670902280",
+        "ephemeralOutOfSync": false
+      },
+      {
+        "key": {
+          "remoteJid": "60189830350@s.whatsapp.net",
+          "fromMe": false,
+          "id": "BBDD9591E542A9301544B0509FF2ED0B"
+        },
+        "message": {
+          "conversation": "Kene ban siap kaw"
+        },
+        "messageTimestamp": "1670902295",
+        "ephemeralOutOfSync": false
+      },
+      {
+        "key": {
+          "remoteJid": "60189830350@s.whatsapp.net",
+          "fromMe": false,
+          "id": "FBC132D73CC727AB45F1FCFBF4A5747B"
+        },
+        "message": {
+          "stickerMessage": {
+            "url": "https://mmg.whatsapp.net/d/f/Athl5sj0cOxBDODOxGjSaR2e5ZcUxflQn7aw-Y4dQ8kq.enc",
+            "fileSha256": "H3DXhQaoTx93E8QUOMXpcuha1VEn7I/5FqBOXbtcl9s=",
+            "fileEncSha256": "PMwyzD1N4oYYVp2MF4APCvCY0kgFeE5seypA+buCFuA=",
+            "mediaKey": "nf4Jx5sCuTmHZipDYNSoxXFYnergi2RwI3IvI6Wn/Ys=",
+            "mimetype": "image/webp",
+            "height": 64,
+            "width": 64,
+            "directPath": "/v/t62.15575-24/69657597_512857680811208_8327232416009717031_n.enc?ccb=11-4&oh=01_AdTGi3E9gnPs-BcUtoGyWcxyE8bALrJWkJW_uLZSjvI4PQ&oe=63BF722C",
+            "fileLength": "192646",
+            "mediaKeyTimestamp": "1670889277",
+            "firstFrameLength": 2400,
+            "firstFrameSidecar": "fwdVtK6YRQMCWg==",
+            "isAnimated": true
+          }
+        },
+        "messageTimestamp": "1670902297",
+        "ephemeralOutOfSync": false,
+        "mediaData": {
+          "localPath": "Media/WhatsApp Stickers/STK-20221213-WA0011.webp"
+        }
+      },
+      {
+        "key": {
+          "remoteJid": "60189830350@s.whatsapp.net",
+          "fromMe": true,
+          "id": "A08DFF74708171FD4D309F8DA939FA92"
+        },
+        "message": {
+          "conversation": "Tkde lah bukan bot bug"
+        },
+        "messageTimestamp": "1670902356",
+        "status": "READ",
+        "messageC2STimestamp": "1670902357",
+        "userReceipt": [
+          {
+            "userJid": "60189830350@s.whatsapp.net",
+            "receiptTimestamp": "1670902358",
+            "readTimestamp": "1670902559",
+            "playedTimestamp": "0"
+          }
+        ]
+      },
+      {
+        "key": {
+          "remoteJid": "60189830350@s.whatsapp.net",
+          "fromMe": false,
+          "id": "64D8E88DAD102FE1DBCB81A89561B6CC"
+        },
+        "message": {
+          "stickerMessage": {
+            "url": "https://mmg.whatsapp.net/d/f/Athl5sj0cOxBDODOxGjSaR2e5ZcUxflQn7aw-Y4dQ8kq.enc",
+            "fileSha256": "H3DXhQaoTx93E8QUOMXpcuha1VEn7I/5FqBOXbtcl9s=",
+            "fileEncSha256": "PMwyzD1N4oYYVp2MF4APCvCY0kgFeE5seypA+buCFuA=",
+            "mediaKey": "nf4Jx5sCuTmHZipDYNSoxXFYnergi2RwI3IvI6Wn/Ys=",
+            "mimetype": "image/webp",
+            "height": 64,
+            "width": 64,
+            "directPath": "/v/t62.15575-24/69657597_512857680811208_8327232416009717031_n.enc?ccb=11-4&oh=01_AdTGi3E9gnPs-BcUtoGyWcxyE8bALrJWkJW_uLZSjvI4PQ&oe=63BF722C",
+            "fileLength": "192646",
+            "mediaKeyTimestamp": "1670889277",
+            "firstFrameLength": 2400,
+            "firstFrameSidecar": "fwdVtK6YRQMCWg==",
+            "isAnimated": true
+          }
+        },
+        "messageTimestamp": "1670902563",
+        "status": "READ",
+        "ephemeralOutOfSync": false,
+        "mediaData": {
+          "localPath": "Media/WhatsApp Stickers/STK-20221213-WA0011.webp"
+        }
+      }
+    ],
+    "60199782326@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "60199782326@s.whatsapp.net",
+          "fromMe": true,
+          "id": "AE4460C14A6DD13DD05C2B20AB135A3E"
+        },
+        "messageTimestamp": "1670902188",
+        "messageStubType": "E2E_ENCRYPTED"
+      }
+    ],
+    "628990981092@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "628990981092@s.whatsapp.net",
+          "fromMe": true,
+          "id": "BC089B526739F5D734EE06790F988082"
+        },
+        "messageTimestamp": "1670902187",
+        "messageStubType": "E2E_ENCRYPTED"
+      }
+    ],
+    "60138671074@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "60138671074@s.whatsapp.net",
+          "fromMe": true,
+          "id": "DF56B1AE59ECDEC3D5354EF7A66E91D0"
+        },
+        "messageTimestamp": "1670902185",
+        "messageStubType": "E2E_ENCRYPTED"
+      }
+    ],
+    "601169934292@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "601169934292@s.whatsapp.net",
+          "fromMe": true,
+          "id": "AD7C5020A62CCA698AE1177DB3B826AE"
+        },
+        "messageTimestamp": "1670902185",
+        "messageStubType": "E2E_ENCRYPTED"
+      }
+    ],
+    "62882003806038@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "62882003806038@s.whatsapp.net",
+          "fromMe": true,
+          "id": "92BB18A7DA2BADE4B5EB47D2D6D3BCAC"
+        },
+        "messageTimestamp": "1670902184",
+        "messageStubType": "E2E_ENCRYPTED"
+      }
+    ],
+    "60136245436@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "60136245436@s.whatsapp.net",
+          "fromMe": true,
+          "id": "E14C73C4A79B907F7D1346C71A262323"
+        },
+        "messageTimestamp": "1670902184",
+        "messageStubType": "E2E_ENCRYPTED"
+      }
+    ],
+    "62895613293360@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "62895613293360@s.whatsapp.net",
+          "fromMe": true,
+          "id": "19F5887C0CA88D01F66589B2A3C9273A"
+        },
+        "messageTimestamp": "1670902184",
+        "messageStubType": "E2E_ENCRYPTED"
+      }
+    ],
+    "60133022676@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "60133022676@s.whatsapp.net",
+          "fromMe": true,
+          "id": "2B63F9B7CA4AE00FDC19C0122DA3EB07"
+        },
+        "messageTimestamp": "1670902183",
+        "messageStubType": "E2E_ENCRYPTED"
+      }
+    ],
+    "601155263405@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "601155263405@s.whatsapp.net",
+          "fromMe": true,
+          "id": "916503553C4D905AC960523135CD59F5"
+        },
+        "messageTimestamp": "1670902183",
+        "messageStubType": "E2E_ENCRYPTED"
+      }
+    ],
+    "6285364937006@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "6285364937006@s.whatsapp.net",
+          "fromMe": true,
+          "id": "55D085F769A39104CDA8C598AAE5E078"
+        },
+        "messageTimestamp": "1670902183",
+        "messageStubType": "E2E_ENCRYPTED"
+      }
+    ],
+    "60136241729@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "60136241729@s.whatsapp.net",
+          "fromMe": true,
+          "id": "8B5A825D70B9053E800FA4314CF87DF4"
+        },
+        "messageTimestamp": "1670902183",
+        "messageStubType": "E2E_ENCRYPTED"
+      }
+    ],
+    "60196060207@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "60196060207@s.whatsapp.net",
+          "fromMe": true,
+          "id": "879F3F52A64D165264CCEAB895D44DAF"
+        },
+        "messageTimestamp": "1670902182",
+        "messageStubType": "E2E_ENCRYPTED"
+      }
+    ],
+    "601163188399@s.whatsapp.net": [
+      {
+        "key": {
+          "remoteJid": "601163188399@s.whatsapp.net",
+          "fromMe": true,
+          "id": "878251C045145B36CE723675C4684931"
+        },
+        "messageTimestamp": "1670902182",
+        "messageStubType": "E2E_ENCRYPTED"
+      }
+    ]
   }
 }
